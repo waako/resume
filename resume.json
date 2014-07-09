@@ -1,0 +1,231 @@
+{
+  "bio": {
+    "firstName": "Tom",
+    "lastName": "Bamford",
+    "email": {
+      "personal": "tom@halfmesh.com"
+    },
+    "phone": {
+      "work": null,
+      "personal": null
+    },
+    "summary": "A multilingual front-end coder, I speak English, CSS, HTML, French, Drupal, all cleanly and semantically of course. Common sense usually prevails throughout, provided a good supply of tea.\n\nFrontend United London 2013 co-organiser, a not-for-profit european conference delivering inspiring talks.\nPast projects include: Data.Gov.UK, BBC Good Food, ITV Player, Bristol City Council.\n\nWorking with Drupal for 5 years as a themer. I attended 8 Drupalcamps in 2012 and spoke at 3 about how to stop designing pages and effective on-boarding processes.\n\nLikes: Open Source, fruit, styleguides, agile and kanban, Git, SASS, Drupal theming, pattern libraries, Github, nonprofits, collaboration, structure and tea.\n\nDislikes: static web page design PSDs, messy markup, multi-national corporations, projects without version control, without documentation, without project management, coffee, not being able to learn new things.",
+    "location": null
+  },
+  "work": [
+    {
+      "company": "Agile Collective",
+      "position": "Frontend Developer - Drupal Themer (Freelance)",
+      "startDate": "2014-06"
+    },
+    {
+      "company": "Half-Mesh Ltd",
+      "position": "Director",
+      "startDate": "2011-05",
+      "summary": "Drupal theming consultancy"
+    },
+    {
+      "company": "Blue Dot Lab",
+      "position": "Frontend Developer - Drupal Themer (Freelance)",
+      "startDate": "2014-04"
+    },
+    {
+      "company": "White October",
+      "position": "Frontend Developer - Drupal Themer (Freelance)",
+      "startDate": "2014-03"
+    },
+    {
+      "company": "Torchbox",
+      "position": "Frontend Developer - Drupal Themer (Freelance)",
+      "startDate": "2014-01"
+    },
+    {
+      "company": "Coast Digital",
+      "position": "Frontend Developer - Drupal Themer (Freelance)",
+      "startDate": "2013-12",
+      "summary": "Tight deadline to implement a base theme (using Bootstrap 3) as foundation for multi-site.\nFocus on use of Bootstrap features and components within Drupal, including Views, Panels and search."
+    },
+    {
+      "company": "Cabinet Office",
+      "position": "Frontend Developer - Drupal Themer (Freelance)",
+      "startDate": "2013-10",
+      "summary": "Delivered responsive Drupal theme for redesigned http://data.gov.uk on short notice and to tight deadline.\nAll frontend assets (css/js/fonts/images) were shared with CKAN templates in a separate repository, to allow as much reusability of code as possible."
+    },
+    {
+      "company": "Narcolepsy UK",
+      "position": "Trustee & Director of Technical Strategems",
+      "startDate": "2011-08",
+      "summary": "Member of Web and Marketing committee to enhance the web presence and ensure a wide audience reach"
+    },
+    {
+      "company": "Tag1 Consulting, Inc.",
+      "position": "Drupal Themer - Front-end Developer",
+      "startDate": "2013-08",
+      "summary": "Part of the theming team on a large complex web app rebuild."
+    },
+    {
+      "company": "BBC Worldwide",
+      "position": "Drupal Themer - Front-end Developer",
+      "startDate": "2012-10",
+      "summary": "Integrate a complex responsive front-end architecture into a Drupal theme for a traffic intense, image rich, site.\nFocus on front-end performance via code driven theme development."
+    },
+    {
+      "company": "HomeMade Digital Ltd",
+      "position": "Drupal Themer - Front-end Developer",
+      "startDate": "2012-05",
+      "summary": "Drupal theming, implemention of a SASS/Compass enabled theme using Mothership.\nTasked with retro-fitting a static HTML site design into Drupal build."
+    },
+    {
+      "company": "Tag1 Consulting, Inc.",
+      "position": "Drupal Themer - Front-end Developer",
+      "startDate": "2012-02",
+      "summary": "Advanced theming on a large scale broadcaster's video-on-demand service, using SASS.\nIntegration into complex agile development process.\nFocus on theming ITV Player category, episode pages and watchlist."
+    },
+    {
+      "company": "Base One",
+      "position": "Drupal Themer - Front-end Developer",
+      "startDate": "2011-12",
+      "summary": "Called in to assist with finalise theming of project, while also updating requirements and functionality of platform base theme"
+    },
+    {
+      "company": "Bantalabs",
+      "position": "Drupal Themer - Front-end Developer",
+      "startDate": "2011-09",
+      "summary": "Theming for large e-commerce site, working alongside Commerce Guys and Capgemini France"
+    },
+    {
+      "company": "Drupalcon London",
+      "position": "Henry VIII",
+      "startDate": "2011-08",
+      "summary": "Led a group of DrupalCon London attendees on the Ubelly London SouthBank pubcrawl"
+    },
+    {
+      "company": "Capgemini",
+      "position": "Drupal Themer - Front-end Developer",
+      "startDate": "2011-07",
+      "summary": "Involved in the final stages of the Bristol City Council website [bristol.gov.uk], particularly tweaking to optimise accessibility along WCAG 2.0 guidelines and refine a number of User Experience issues."
+    },
+    {
+      "company": "Public Zone",
+      "position": "Drupal Themer - Front-end Developer",
+      "startDate": "2011-04",
+      "summary": "Freelance Drupal themer on Urban Gateway [urbangateway.org] and My Farm [my-farm.org.uk]"
+    },
+    {
+      "company": "Gemin-i.org",
+      "position": "Front-End Developer",
+      "startDate": "2010-09",
+      "summary": "HTML5 semantic site architecture and templating of Symfony modules built with developers.\nDesign and UX of Rafiki, social community web application."
+    },
+    {
+      "company": "Russell Investments",
+      "position": "Front-End Developer",
+      "startDate": "2010-02",
+      "summary": "Evaluation of CMS/Template possibilities for build of new website within current hosting restrictions. Build of documented HTML/CSS templates according to in-house designs, training of marketing team for content input. Write detailed specs and docs for handover to replacement developer."
+    },
+    {
+      "company": "Anderson Norton Design",
+      "position": "Creative Web Developer",
+      "startDate": "2008-09",
+      "summary": "Main role consisted of preparing Wireframes and Information Architecture, setting up Drupal websites and implementing theme design, as well as support agent for clients and all static, CMSMadeSimple and Drupal websites. Other functions included managing/installing Debian servers, educating designers on design for the web, training clients on CMS."
+    },
+    {
+      "company": "The CogWorks",
+      "position": "Front-End Developer",
+      "startDate": "2008-05",
+      "summary": "Cogworks used an in-house ASP.NET CMS, this required implementing design from PSD into a static HTML/CSS model that was then templated for the CMS."
+    },
+    {
+      "company": "Greenbee.com; John Lewis Partnership",
+      "position": "Graphic & Web Designer",
+      "startDate": "2008-05",
+      "summary": "The redesign of greenbee.com required a tighter design harmony with the quote system calling the various Insurance Company APIs, while taking into account the consequent limited flexibility. Updates were also required for the various insurance cover booklets to be provided to customers."
+    },
+    {
+      "company": "T5M",
+      "position": "Designer",
+      "startDate": "2007-04",
+      "summary": "T5M run a video magazine website, at the time they were working closely with Microsoft, where I would build the various designs to pass on to the developers, this included the use of newly released MS Expression Studio. While the company was still small, I was also IT support and print designer. As the company grew, I specialised in building the corporate site and numerous HTML/CSS snippets to be implemented in the application."
+    }
+  ],
+  "education": [
+    {
+      "institution": "Anglia Ruskin University",
+      "startDate": "2004",
+      "endDate": "2007",
+      "area": "20th Century European History & Politics and Graphic Design",
+      "studyType": ""
+    }
+  ],
+  "skills": [
+    {
+      "name": "Drupal"
+    },
+    {
+      "name": "Front-end Development"
+    },
+    {
+      "name": "Theming"
+    },
+    {
+      "name": "Accessibility"
+    },
+    {
+      "name": "jQuery"
+    },
+    {
+      "name": "User Experience"
+    },
+    {
+      "name": "CSS"
+    },
+    {
+      "name": "CMS"
+    },
+    {
+      "name": "Front-end"
+    },
+    {
+      "name": "HTML"
+    },
+    {
+      "name": "SASS"
+    },
+    {
+      "name": "Web Standards"
+    },
+    {
+      "name": "Git"
+    },
+    {
+      "name": "Web Development"
+    },
+    {
+      "name": "Software Installation"
+    },
+    {
+      "name": "Apache"
+    },
+    {
+      "name": "LAMP"
+    },
+    {
+      "name": "Web Applications"
+    },
+    {
+      "name": "Maintenance & Repair"
+    },
+    {
+      "name": "Information Architecture"
+    },
+    {
+      "name": "Web Design"
+    },
+    {
+      "name": "Wireframes"
+    },
+    {
+      "name": "HTML 5"
+    }
+  ]
+}
