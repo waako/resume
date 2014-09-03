@@ -5,16 +5,25 @@
     "picture": "",
     "email": "tom@halfmesh.com",
     "phone": "+44 7910357 497",
-    "summary": "A multilingual front-end coder, I speak English, CSS, HTML, French, Drupal, all cleanly and semantically of course. Common sense usually prevails throughout, provided a good supply of tea.\n\nPast projects include: Chatham House, Data.Gov.UK, BBC Good Food, ITV Player, Bristol City Council.\n\nWorking with Drupal for 5 years as a themer. I attended 8 Drupalcamps in 2012 and spoke at 3 about how to stop designing pages and effective on-boarding processes.\n\nLikes: Open Source, fruit, styleguides, agile and kanban, Git, SASS, Drupal theming, pattern libraries, Github, nonprofits, collaboration, structure and tea.\n\nDislikes: static web page design PSDs, messy markup, multi-national corporations, projects without version control, without documentation, without project management, coffee, not being able to learn new things.\n\nFrontend United London 2013 co-organiser, a not-for-profit european conference delivering inspiring talks.",
+    "website": "",
+    "summary": "A multilingual front-end coder, I speak English, CSS, HTML, French, Drupal, all cleanly and semantically of course. Common sense usually prevails throughout, provided a good supply of tea. \\nPast projects include: Chatham House, Data.Gov.UK, BBC Good Food, ITV Player, Bristol City Council. \\nWorking with Drupal for 5 years as a themer. I attended 8 Drupalcamps in 2012 and spoke at 3 about how to stop designing pages and effective on-boarding processes. \\nLikes: Open Source, fruit, styleguides, agile and kanban, Git, SASS, Drupal theming, pattern libraries, Github, nonprofits, collaboration, structure and tea. \\nDislikes: static web page design PSDs, messy markup, multi-national corporations, projects without version control, without documentation, without project management, coffee, not being able to learn new things.Frontend United London 2013 co-organiser, a not-for-profit european conference delivering inspiring talks.",
     "location": {
-      "city": "Oxford, United Kingdom",
-      "countryCode": "GB"
+      "address": "",
+      "postalCode": "",
+      "city": "Oxford",
+      "countryCode": "GB",
+      "region": ""
     },
     "profiles": [
       {
         "network": "Twitter",
-        "username": "https://twitter.com/waako",
-        "url": ""
+        "username": "waako",
+        "url": "https://twitter.com/waako"
+      },
+      {
+        "network": "Gitub",
+        "username": "waako",
+        "url": "https://github.com/waako"
       },
       {
         "network": "Drupal",
@@ -25,293 +34,342 @@
   },
   "work": [
     {
-      "company": "Half-Mesh Ltd",
-      "position": "Director",
-      "startDate": "2011-05-01",
-      "summary": "Drupal theming consultancy"
-    },
-    {
       "company": "Agile Collective",
       "position": "Frontend Developer - Drupal Themer (Freelance)",
+      "website": "http://agilecollective.com/",
       "startDate": "2014-06-01",
-      "summary": "Implementation of responsive redesign for Oxford University College website in an agile workflow centred around a client collaboration process.\n\n* Drupal\n* Omega theme\n* SASS, Compass, Singularity, Breakpoints\n* Display Suite\n* Git Flow\n* Gitlab\n* Agile Project\n* Open Atrium\n* Sprint based development",
-      "endDate": "2014-08-01"
+      "endDate": "2014-08-01",
+      "summary": "Implementation of responsive redesign for Oxford University College website in an agile workflow centred around a client collaboration process.* Drupal* Omega theme* SASS, Compass, Singularity, Breakpoints* Display Suite* Git Flow* Gitlab* Agile Project* Open Atrium* Sprint based development",
+      "highlights": [
+        "Linacre College, Oxford University"
+      ]
     },
     {
       "company": "Blue Dot Lab",
       "position": "Frontend Developer - Drupal Themer (Freelance)",
+      "website": "",
       "startDate": "2014-04-01",
-      "summary": "Bootstrap, flatly based, theme across a multi-domain, multi-site Drupal instance.\n\n* Drupal\n* Bootstrap theme\n* SASS, Compass\n* Display Suite\n* pre/process functions\n* Code/Features based development\n* Git Flow\n* Pantheon\n* Agile Project\n* Open Atrium\n* Sprint based development",
-      "endDate": "2014-06-01"
+      "endDate": "2014-06-01",
+      "summary": "Bootstrap, flatly based, theme across a multi-domain, multi-site Drupal instance.* Drupal* Bootstrap theme* SASS, Compass* Display Suite* pre/process functions* Code/Features based development* Git Flow* Pantheon* Agile Project* Open Atrium* Sprint based development",
+      "highlights": []
     },
     {
       "company": "White October",
       "position": "Frontend Developer - Drupal Themer (Freelance)",
+      "website": "http://whiteoctober.co.uk",
       "startDate": "2014-03-01",
-      "summary": "Support and train Frontend developer to be independent in Drupal theming: \n- How to expose theme template files to amend core markup.\n- Use and modify theme functions, allowing to enable theme template file overrides.\n- Implement complex theme functions.\n\n* Drupal\n* Bootstrap theme\n* LESS\n* Display Suite\n* Git Flow\n* Github\n* Agile Project\n* Jira\n* Sprint based development",
-      "endDate": "2014-04-01"
+      "endDate": "2014-04-01",
+      "summary": "Support and train Frontend developer to be independent in Drupal theming: - How to expose theme template files to amend core markup.- Use and modify theme functions, allowing to enable theme template file overrides.- Implement complex theme functions.* Drupal* Bootstrap theme* LESS* Display Suite* Git Flow* Github* Agile Project* Jira* Sprint based development",
+      "highlights": []
     },
     {
       "company": "Torchbox",
       "position": "Frontend Developer - Drupal Themer (Freelance)",
+      "website": "http://www.torchbox.com",
       "startDate": "2014-01-01",
-      "summary": "Support existing team in responsive build of Chatham House redesign http://www.chathamhouse.org/ based on HTML designs.\n\n* Drupal\n* LESS\n* Display Suite\n* Git Flow\n* CodebaseHQ\n* Sprint based development",
-      "endDate": "2014-03-01"
+      "endDate": "2014-03-01",
+      "summary": "Support existing team in responsive build of Chatham House redesign http://www.chathamhouse.org/ based on HTML designs.* Drupal* LESS* Display Suite* Git Flow* CodebaseHQ* Sprint based development",
+      "highlights": []
     },
     {
       "company": "Coast Digital",
       "position": "Frontend Developer - Drupal Themer (Freelance)",
+      "website": "",
       "startDate": "2013-12-01",
-      "summary": "Tight deadline to implement a base theme (using Bootstrap 3) as foundation for multi-site.\nFocus on use of Bootstrap features and components within Drupal, including Views, Panels and search.",
-      "endDate": "2014-01-01"
+      "endDate": "2014-01-01",
+      "summary": "Tight deadline to implement a base theme (using Bootstrap 3) as foundation for multi-site.Focus on use of Bootstrap features and components within Drupal, including Views, Panels and search.",
+      "highlights": []
     },
     {
       "company": "Cabinet Office",
       "position": "Frontend Developer - Drupal Themer (Freelance)",
+      "website": "http://data.gov.uk",
       "startDate": "2013-10-01",
-      "summary": "Delivered responsive Drupal theme for redesigned http://data.gov.uk on short notice and to tight deadline.\nAll frontend assets (css/js/fonts/images) were shared with CKAN templates in a separate repository, to allow as much reusability of code as possible.",
-      "endDate": "2013-11-01"
+      "endDate": "2013-11-01",
+      "summary": "Delivered responsive Drupal theme for redesigned http://data.gov.uk on short notice and to tight deadline.All frontend assets (css/js/fonts/images) were shared with CKAN templates in a separate repository, to allow as much reusability of code as possible.",
+      "highlights": []
     },
     {
       "company": "Narcolepsy UK",
       "position": "Trustee & Director of Technical Strategems",
+      "website": "http://narcolepsy.org.uk",
       "startDate": "2011-08-01",
+      "endDate": "2013-09-01",
       "summary": "Member of Web and Marketing committee to enhance the web presence and ensure a wide audience reach",
-      "endDate": "2013-09-01"
+      "highlights": []
     },
     {
       "company": "Tag1 Consulting, Inc.",
       "position": "Drupal Themer - Front-end Developer",
+      "website": "http://tag1consulting.com",
       "startDate": "2013-08-01",
+      "endDate": "2013-08-01",
       "summary": "Part of the theming team on a large complex web app rebuild.",
-      "endDate": "2013-08-01"
+      "highlights": []
     },
     {
       "company": "BBC Worldwide",
       "position": "Drupal Themer - Front-end Developer",
+      "website": "http://bbcgoodfood.com",
       "startDate": "2012-10-01",
-      "summary": "Build of new BBC Good Food\nIntegrate a complex responsive front-end architecture into a Drupal theme for a traffic intense, image rich, site.\nFocus on front-end performance via code driven theme development.",
-      "endDate": "2013-02-01"
+      "endDate": "2013-02-01",
+      "summary": "Build of new BBC Good FoodIntegrate a complex responsive front-end architecture into a Drupal theme for a traffic intense, image rich, site.Focus on front-end performance via code driven theme development.",
+      "highlights": []
     },
     {
       "company": "HomeMade Digital Ltd",
       "position": "Drupal Themer - Front-end Developer",
+      "website": "",
       "startDate": "2012-05-01",
-      "summary": "Drupal theming, implemention of a SASS/Compass enabled theme using Mothership.\nTasked with retro-fitting a static HTML site design into Drupal build.",
-      "endDate": "2012-07-01"
+      "endDate": "2012-07-01",
+      "summary": "Drupal theming, implemention of a SASS/Compass enabled theme using Mothership.Tasked with retro-fitting a static HTML site design into Drupal build.",
+      "highlights": []
     },
     {
       "company": "Tag1 Consulting, Inc.",
       "position": "Drupal Themer - Front-end Developer",
+      "website": "",
       "startDate": "2012-02-01",
-      "summary": "Advanced theming on a large scale broadcaster's video-on-demand service, using SASS.\nIntegration into complex agile development process.\nFocus on theming ITV Player category, episode pages and watchlist.",
-      "endDate": "2012-03-01"
+      "endDate": "2012-03-01",
+      "summary": "Advanced theming on a large scale broadcaster's video-on-demand service, using SASS.Integration into complex agile development process.Focus on theming ITV Player category, episode pages and watchlist.",
+      "highlights": []
     },
     {
       "company": "Base One",
       "position": "Drupal Themer - Front-end Developer",
+      "website": "",
       "startDate": "2011-12-01",
+      "endDate": "2011-12-01",
       "summary": "Called in to assist with finalise theming of project, while also updating requirements and functionality of platform base theme",
-      "endDate": "2011-12-01"
+      "highlights": []
     },
     {
       "company": "Bantalabs",
       "position": "Drupal Themer - Front-end Developer",
+      "website": "",
       "startDate": "2011-09-01",
+      "endDate": "2011-09-01",
       "summary": "Theming for large e-commerce site, working alongside Commerce Guys and Capgemini France",
-      "endDate": "2011-09-01"
+      "highlights": []
     },
     {
       "company": "Drupalcon London",
       "position": "Henry VIII",
+      "website": "",
       "startDate": "2011-08-01",
+      "endDate": "2011-08-01",
       "summary": "Led a group of DrupalCon London attendees on the Ubelly London SouthBank pubcrawl",
-      "endDate": "2011-08-01"
+      "highlights": []
     },
     {
       "company": "Capgemini",
       "position": "Drupal Themer - Front-end Developer",
+      "website": "http://www.bristol.gov.uk",
       "startDate": "2011-07-01",
+      "endDate": "2011-08-01",
       "summary": "Involved in the final stages of the Bristol City Council website [bristol.gov.uk], particularly tweaking to optimise accessibility along WCAG 2.0 guidelines and refine a number of User Experience issues.",
-      "endDate": "2011-08-01"
+      "highlights": []
     },
     {
       "company": "Public Zone",
       "position": "Drupal Themer - Front-end Developer",
+      "website": "",
       "startDate": "2011-04-01",
+      "endDate": "2011-07-01",
       "summary": "Freelance Drupal themer on Urban Gateway [urbangateway.org] and My Farm [my-farm.org.uk]",
-      "endDate": "2011-07-01"
+      "highlights": []
     },
     {
       "company": "Gemin-i.org",
       "position": "Front-End Developer",
+      "website": "",
       "startDate": "2010-09-01",
-      "summary": "HTML5 semantic site architecture and templating of Symfony modules built with developers.\nDesign and UX of Rafiki, social community web application.",
-      "endDate": "2011-03-01"
+      "endDate": "2011-03-01",
+      "summary": "HTML5 semantic site architecture and templating of Symfony modules built with developers.Design and UX of Rafiki, social community web application.",
+      "highlights": []
     },
     {
       "company": "Russell Investments",
       "position": "Front-End Developer",
+      "website": "",
       "startDate": "2010-02-01",
+      "endDate": "2010-04-01",
       "summary": "Evaluation of CMS/Template possibilities for build of new website within current hosting restrictions. Build of documented HTML/CSS templates according to in-house designs, training of marketing team for content input. Write detailed specs and docs for handover to replacement developer.",
-      "endDate": "2010-04-01"
+      "highlights": []
     },
     {
       "company": "Anderson Norton Design",
       "position": "Creative Web Developer",
+      "website": "",
       "startDate": "2008-09-01",
+      "endDate": "2009-08-01",
       "summary": "Main role consisted of preparing Wireframes and Information Architecture, setting up Drupal websites and implementing theme design, as well as support agent for clients and all static, CMSMadeSimple and Drupal websites. Other functions included managing/installing Debian servers, educating designers on design for the web, training clients on CMS.",
-      "endDate": "2009-08-01"
+      "highlights": []
     },
     {
       "company": "The CogWorks",
       "position": "Front-End Developer",
+      "website": "",
       "startDate": "2008-05-01",
+      "endDate": "2008-07-01",
       "summary": "Cogworks used an in-house ASP.NET CMS, this required implementing design from PSD into a static HTML/CSS model that was then templated for the CMS.",
-      "endDate": "2008-07-01"
+      "highlights": []
     },
     {
       "company": "Greenbee.com; John Lewis Partnership",
       "position": "Graphic & Web Designer",
+      "website": "",
       "startDate": "2008-05-01",
+      "endDate": "2008-05-01",
       "summary": "The redesign of greenbee.com required a tighter design harmony with the quote system calling the various Insurance Company APIs, while taking into account the consequent limited flexibility. Updates were also required for the various insurance cover booklets to be provided to customers.",
-      "endDate": "2008-05-01"
+      "highlights": []
     },
     {
       "company": "T5M",
       "position": "Designer",
+      "website": "",
       "startDate": "2007-04-01",
+      "endDate": "2008-01-01",
       "summary": "T5M run a video magazine website, at the time they were working closely with Microsoft, where I would build the various designs to pass on to the developers, this included the use of newly released MS Expression Studio. While the company was still small, I was also IT support and print designer. As the company grew, I specialised in building the corporate site and numerous HTML/CSS snippets to be implemented in the application.",
-      "endDate": "2008-01-01"
+      "highlights": []
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "Restless Development",
+      "position": "Volunteer",
+      "website": "restlessdevelopment.org/",
+      "startDate": "2004-01-15",
+      "endDate": "2004-07-20",
+      "summary": "",
+      "highlights": []
     }
   ],
   "education": [
     {
       "institution": "Anglia Ruskin University",
+      "area": "20th Century European History & Politics and Graphic Design",
+      "studyType": "",
       "startDate": "2004-09-01",
       "endDate": "2007-06-01",
-      "area": "20th Century European History & Politics and Graphic Design",
+      "gpa": "",
       "courses": []
     }
   ],
+  "awards": [],
+  "publications": [],
   "skills": [
     {
       "name": "Drupal",
-      "keywords": []
+      "level": "80%",
+      "keywords": [
+        "Theming",
+        "Site Building",
+        "Configuration",
+        "Maintenance",
+        "Front-end Performance"
+      ]
     },
     {
       "name": "Front-end Development",
+      "level": "80%",
       "keywords": []
     },
     {
       "name": "Theming",
+      "level": "80%",
       "keywords": []
     },
     {
       "name": "Accessibility",
+      "level": "80%",
       "keywords": []
     },
     {
       "name": "jQuery",
+      "level": "50%",
       "keywords": []
     },
     {
       "name": "User Experience",
+      "level": "60%",
       "keywords": []
     },
     {
       "name": "CSS",
+      "level": "85%",
       "keywords": []
     },
     {
-      "name": "CMS",
+      "name": "",
+      "level": "",
       "keywords": []
     },
     {
       "name": "Front-end",
+      "level": "90%",
       "keywords": []
     },
     {
       "name": "HTML",
+      "level": "90%",
       "keywords": []
     },
     {
       "name": "SASS",
+      "level": "80%",
       "keywords": []
     },
     {
       "name": "Web Standards",
+      "level": "",
       "keywords": []
     },
     {
       "name": "Git",
-      "keywords": []
-    },
-    {
-      "name": "Web Development",
-      "keywords": []
-    },
-    {
-      "name": "Software Installation",
-      "keywords": []
-    },
-    {
-      "name": "Apache",
-      "keywords": []
-    },
-    {
-      "name": "LAMP",
-      "keywords": []
-    },
-    {
-      "name": "Web Applications",
-      "keywords": []
-    },
-    {
-      "name": "Maintenance & Repair",
-      "keywords": []
-    },
-    {
-      "name": "Information Architecture",
-      "keywords": []
-    },
-    {
-      "name": "Web Design",
-      "keywords": []
-    },
-    {
-      "name": "Wireframes",
-      "keywords": []
-    },
-    {
-      "name": "HTML 5",
+      "level": "",
       "keywords": []
     }
   ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Bilingual"
+    },
+    {
+      "language": "French",
+      "fluency": "Bilingual"
+    },
+    {
+      "language": "German",
+      "fluency": "Basic conversational"
+    }
+  ],
+  "interests": [],
   "references": [
     {
       "name": "James Borrodell Brown",
       "reference": "Tom really helped us out on a number of occasions by being available at odd hours (including, I think, at midnight on one very stressful Sunday) and we really enjoyed having his friendly face on the team. Good luck Tom hope we can catch up soon!"
     },
     {
-      "name": "private private",
+      "name": "Django Beatty",
       "reference": "Tom worked on the Drupal theming for a local government site. This had very high requirements in pixel-level precision, browser compatibility, and accessibility. This meant that a very high level of expertise was required and Tom demonstrated that he could consistently deliver. He was highly regarded by colleagues on the delivery team as well as those managing the engagement. I would have no hesitation in hiring Tom again for a Drupal theming role."
     },
     {
       "name": "Simon Elliott",
-      "reference": "We engaged Tom to work with us as a themer on a major Drupal project for an international client of the French Capgemini Drupal Factory. \r\nTom put in the long hours required to meet the short deadlines, he proved a valuable resource to the team.\r\nThe site has since been rolled out in Taiwan and Belgium, and localised versions are soon to be rolled out across the rest of Europe and the Far East."
+      "reference": "We engaged Tom to work with us as a themer on a major Drupal project for an international client of the French Capgemini Drupal Factory. Tom put in the long hours required to meet the short deadlines, he proved a valuable resource to the team.The site has since been rolled out in Taiwan and Belgium, and localised versions are soon to be rolled out across the rest of Europe and the Far East."
     },
     {
       "name": "Tabitha Winter",
-      "reference": "Tom is an extremely valuable addition to any Drupal team. He works well with others and understands the various issues inherent in the delivery of software. His theming knowledge is beyond compare and due to his deeply embedded status within the Drupal community is a fountain of knowledge, able to bounce ideas around with project managers, product owners and back end developers alike, to come up with the best solution for the task at hand.\r\n\r\nI would definitely recommend Tom and would work with him again if the opportunity arose."
+      "reference": "Tom is an extremely valuable addition to any Drupal team. He works well with others and understands the various issues inherent in the delivery of software. His theming knowledge is beyond compare and due to his deeply embedded status within the Drupal community is a fountain of knowledge, able to bounce ideas around with project managers, product owners and back end developers alike, to come up with the best solution for the task at hand.I would definitely recommend Tom and would work with him again if the opportunity arose."
     },
     {
       "name": "Justin Anderson",
       "reference": "Tom is an enthusiastic and keen web developer who constantly researches and experiments with new technologies and web tools. He has a good design eye and an intelligent approach to web development."
     },
     {
-      "name": "private private",
-      "reference": "I had the pleasure of briefly working alongside Tom while we completed the Bristol City Council website. He was tasked with ensuring the site's HTML and CSS was in accordance with the WCAG 2.0 guidelines and a specialist accessibility agency's regular reviews. \r\n\r\nHe undertook this challenging task and made it appear effortless. I would not hesitate to recommend or work with Tom again."
+      "name": "Pete McVicar",
+      "reference": "I had the pleasure of briefly working alongside Tom while we completed the Bristol City Council website. He was tasked with ensuring the site's HTML and CSS was in accordance with the WCAG 2.0 guidelines and a specialist accessibility agency's regular reviews. He undertook this challenging task and made it appear effortless. I would not hesitate to recommend or work with Tom again."
     },
     {
       "name": "Chris Maiden",
