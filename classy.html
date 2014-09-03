@@ -1,0 +1,51 @@
+Theme returned an error.<pre>TypeError: Cannot read property 'title' of undefined
+    at Object.render (/root/theme-manager/themes/jsonresume-theme-classy/1.0.7/index.js:265:29)
+    at runTheme (/root/theme-manager/lib/theme.js:24:24)
+    at /root/theme-manager/lib/theme.js:102:13
+    at Object.cb [as oncomplete] (fs.js:168:19)</pre><h3>Theme Info</h3><pre>{
+  "name": "jsonresume-theme-classy",
+  "version": "1.0.7",
+  "description": "An uber-classy JSONResume theme.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jared Cubilla",
+  "license": "MIT",
+  "dependencies": {
+    "gravatar": "^1.0.6",
+    "lodash": "^2.4.1",
+    "mustache": "^0.8.2",
+    "tarball-extract": "0.0.3",
+    "resume-schema": "0.0.11"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JaredCubilla/jsonresume-theme-classy.git"
+  },
+  "keywords": [
+    "json", "jsonresume", "theme"
+  ],
+  "bugs": {
+    "url": "https://github.com/JaredCubilla/jsonresume-theme-classy/issues"
+  },
+  "homepage": "https://github.com/JaredCubilla/jsonresume-theme-classy"
+}</pre><p><strong>We just launched the official 0.0.0 version recently, please make sure you update before continuing.</strong></p><h3>Resume.json Validation Test</h3><pre>{
+    "errors": [
+        {
+            "code": "OBJECT_ADDITIONAL_PROPERTIES",
+            "message": "Additional properties not allowed",
+            "path": "#/",
+            "params": {
+                "properties": [
+                    "emailBool",
+                    "phoneBool",
+                    "aboutBool",
+                    "workBool",
+                    "educationBool"
+                ]
+            }
+        }
+    ],
+    "warnings": []
+}</pre>

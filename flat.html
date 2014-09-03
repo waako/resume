@@ -1,0 +1,917 @@
+<!doctype html>
+<html>
+	<head>
+	
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, minimal-ui">
+	
+	<title>Tom Bamford</title>
+	
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.2.0/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/octicons/2.0.2/octicons.min.css">
+	
+	<style type="text/css">
+	@import url(
+	http://fonts.googleapis.com/css?family=Lato:400,700
+);
+body {
+	background: #fff;
+	font-family: Lato, sans-serif;
+	margin: 0 0 80px;
+}
+a {
+	color: #2ecc71;
+}
+a:focus,
+a:hover {
+	color: #f1c40f;
+	text-decoration: none;
+}
+p {
+	line-height: 1.5;
+	margin: 0;
+}
+p + p {
+	margin-top: 10px;
+}
+h1,
+h2,
+h3,
+h4 {
+	margin-top: 0
+}
+section {
+	margin-top: 30px;
+}
+li {
+	line-height: 1.8;
+	list-style: none;
+}
+li:before {
+	content: "\f052";
+	float: left;
+	font: 13px Octicons;
+	margin-top: 6px;
+	margin-left: -20px;
+	opacity: .1;
+	position: absolute;
+}
+blockquote {
+	border-left: 5px solid #e7e9ec;
+	font-size: 14px;
+}
+em {
+	color: #95a5a6;
+	font-weight: normal;
+	font-style: normal;
+}
+h4 span:first-child {
+	color: #000;
+	font-weight: bold;
+}
+.container {
+	max-width: 750px;
+	padding: 0 30px;
+}
+.col-sm-6 {
+	margin-bottom: 10px;
+}
+.col-sm-12 h4 {
+	margin-top: 12px; 
+}
+.col-sm-12 + .col-sm-12 {
+	margin-top: 30px;
+}
+#header {
+	background: #f4f6f6;
+	padding: 50px 0;
+	margin-bottom: 30px;
+}
+#header h2 {
+	color: #95a5a6;
+	font-size: 24px;
+}
+#content h3 {
+	color: #f1c40f;
+	font-size: 26px;
+	margin-top: -4px;
+}
+#content aside {
+	text-align: right;
+	padding-right: 30px;
+}
+#profiles .network {
+	text-transform: capitalize;
+}
+#work .position,
+#volunteer .position {
+	font-weight: bold;
+	margin-bottom: 8px;
+}
+#education .area {
+	font-weight: bold;
+}
+#education .area:before {
+	content: "\f0d7";
+	font: 16px Octicons;
+	margin-right: 6px;
+}
+#education .studyType {
+	margin-left: 25px;
+}
+#awards .summary,
+#publications .summary {
+	margin-top: 8px;
+}
+#publications .website a:before {
+	content: attr(href);
+}
+
+@media (min-width: 480px) {
+	.strike-through {
+		border-top: 1px solid #f4f6f6;
+		height: 20px;
+		margin-top: 12px;
+		margin-bottom: -2px;
+		position: relative;
+	}
+	.strike-through span,
+	.strike-through a {
+		background: #fff;
+		position: absolute;
+	}
+	.strike-through span:first-child {
+		padding-right: 20px;
+		margin-top: -12px;
+	}
+	.strike-through span + span {
+		font-size: 14px;
+		margin-top: -10px;
+		padding-left: 20px;
+		right: 0;
+	}
+}
+@media (max-width: 768px) {
+	.col-sm-6:last-child {
+		margin-bottom: 0px;
+	}
+	#content aside {
+		margin-bottom: 20px;
+		padding-right: 0;
+		text-align: left;
+	}
+	#publications .website a:before {
+		content: "View publication";
+	}
+}
+@media (max-width: 480px) {
+	h1 {
+		font-size: 26px;
+	}
+	.date {
+		font-size: 14px;
+		margin-bottom: 5px;
+	}
+	.strike-through span:first-child {
+		margin-bottom: 7px;
+	}
+	.strike-through span {
+		display: block;
+	}	
+	#header {
+		margin-bottom: 10px;
+		padding: 40px 0;
+	}
+	#actions {
+		display: none;
+	}
+}
+
+	</style>
+	
+	</head>
+	<body>
+	
+	<header id="header">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-9 col-sm-push-3">
+					<h1>
+						Tom Bamford
+					</h1>
+					<h2>
+						Programmer
+					</h2>
+				</div>
+			</div>
+		</div>
+	</header>
+	<div id="content" class="container">
+
+	<section id="contact" class="row">
+		<aside class="col-sm-3">
+			<h3>Contact</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-6">
+				<strong>Email</strong>
+				<div class="email">tom@halfmesh.com</div>
+			</div>
+			<div class="col-sm-6">
+				<strong>Phone</strong>
+				<div class="phone">+44 7910357 497</div>
+			</div>
+			<div class="col-sm-6">
+				<strong>Website</strong>
+				<div class="website">
+					<a href=""></a>
+				</div>
+			</div>
+			</div>
+		</div>
+	</section>
+	<section id="about" class="row">
+		<aside class="col-sm-3">
+			<h3>About</h3>
+		</aside>
+		<div class="col-sm-9">
+			<p>A multilingual front-end coder, I speak English, CSS, HTML, French, Drupal, all cleanly and semantically of course. Common sense usually prevails throughout, provided a good supply of tea. 
+
+Past projects include: Chatham House, Data.Gov.UK, BBC Good Food, ITV Player, Bristol City Council. 
+
+Working with Drupal for 5 years as a themer. I attended 8 Drupalcamps in 2012 and spoke at 3 about how to stop designing pages and effective on-boarding processes. 
+
+Likes: Open Source, fruit, styleguides, agile and kanban, Git, SASS, Drupal theming, pattern libraries, Github, nonprofits, collaboration, structure and tea. 
+
+Dislikes: static web page design PSDs, messy markup, multi-national corporations, projects without version control, without documentation, without project management, coffee, not being able to learn new things.Frontend United London 2013 co-organiser, a not-for-profit european conference delivering inspiring talks.</p>
+		</div>
+	</section>
+	<section id="profiles" class="row">
+		<aside class="col-sm-3">
+			<h3>Profiles</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+				<div class="col-sm-6">
+					<strong class="network">
+						Twitter
+					</strong>
+					<div class="username">
+						<div class="url">
+							<a href="https://twitter.com/waako">waako</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6">
+					<strong class="network">
+						Gitub
+					</strong>
+					<div class="username">
+						<div class="url">
+							<a href="https://github.com/waako">waako</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6">
+					<strong class="network">
+						Drupal
+					</strong>
+					<div class="username">
+						<div class="url">
+							<a href="http://drupal.org/user/368076/">waako</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="work" class="row">
+		<aside class="col-sm-3">
+			<h3>Work</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Agile Collective</span>
+					<span class="date">
+						2014-06-01 — 2014-08-01
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href="http://agilecollective.com/">http://agilecollective.com/</a>
+				</div>
+				<div class="position">
+					Frontend Developer - Drupal Themer (Freelance)
+				</div>
+				<div class="summary">
+					<p>Implementation of responsive redesign for Oxford University College website in an agile workflow centred around a client collaboration process.* Drupal* Omega theme* SASS, Compass, Singularity, Breakpoints* Display Suite* Git Flow* Gitlab* Agile Project* Open Atrium* Sprint based development</p>
+				</div>
+				<h4>Highlights</h4>
+				<ul class="highlights">
+					<li class="bullet">Linacre College, Oxford University</li>
+				</ul>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Blue Dot Lab</span>
+					<span class="date">
+						2014-04-01 — 2014-06-01
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href=""></a>
+				</div>
+				<div class="position">
+					Frontend Developer - Drupal Themer (Freelance)
+				</div>
+				<div class="summary">
+					<p>Bootstrap, flatly based, theme across a multi-domain, multi-site Drupal instance.* Drupal* Bootstrap theme* SASS, Compass* Display Suite* pre/process functions* Code/Features based development* Git Flow* Pantheon* Agile Project* Open Atrium* Sprint based development</p>
+				</div>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>White October</span>
+					<span class="date">
+						2014-03-01 — 2014-04-01
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href="http://whiteoctober.co.uk">http://whiteoctober.co.uk</a>
+				</div>
+				<div class="position">
+					Frontend Developer - Drupal Themer (Freelance)
+				</div>
+				<div class="summary">
+					<p>Support and train Frontend developer to be independent in Drupal theming: - How to expose theme template files to amend core markup.- Use and modify theme functions, allowing to enable theme template file overrides.- Implement complex theme functions.* Drupal* Bootstrap theme* LESS* Display Suite* Git Flow* Github* Agile Project* Jira* Sprint based development</p>
+				</div>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Torchbox</span>
+					<span class="date">
+						2014-01-01 — 2014-03-01
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href="http://www.torchbox.com">http://www.torchbox.com</a>
+				</div>
+				<div class="position">
+					Frontend Developer - Drupal Themer (Freelance)
+				</div>
+				<div class="summary">
+					<p>Support existing team in responsive build of Chatham House redesign http://www.chathamhouse.org/ based on HTML designs.* Drupal* LESS* Display Suite* Git Flow* CodebaseHQ* Sprint based development</p>
+				</div>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Coast Digital</span>
+					<span class="date">
+						2013-12-01 — 2014-01-01
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href=""></a>
+				</div>
+				<div class="position">
+					Frontend Developer - Drupal Themer (Freelance)
+				</div>
+				<div class="summary">
+					<p>Tight deadline to implement a base theme (using Bootstrap 3) as foundation for multi-site.Focus on use of Bootstrap features and components within Drupal, including Views, Panels and search.</p>
+				</div>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Cabinet Office</span>
+					<span class="date">
+						2013-10-01 — 2013-11-01
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href="http://data.gov.uk">http://data.gov.uk</a>
+				</div>
+				<div class="position">
+					Frontend Developer - Drupal Themer (Freelance)
+				</div>
+				<div class="summary">
+					<p>Delivered responsive Drupal theme for redesigned http://data.gov.uk on short notice and to tight deadline.All frontend assets (css/js/fonts/images) were shared with CKAN templates in a separate repository, to allow as much reusability of code as possible.</p>
+				</div>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Narcolepsy UK</span>
+					<span class="date">
+						2011-08-01 — 2013-09-01
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href="http://narcolepsy.org.uk">http://narcolepsy.org.uk</a>
+				</div>
+				<div class="position">
+					Trustee &amp; Director of Technical Strategems
+				</div>
+				<div class="summary">
+					<p>Member of Web and Marketing committee to enhance the web presence and ensure a wide audience reach</p>
+				</div>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Tag1 Consulting, Inc.</span>
+					<span class="date">
+						2013-08-01 — 2013-08-01
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href="http://tag1consulting.com">http://tag1consulting.com</a>
+				</div>
+				<div class="position">
+					Drupal Themer - Front-end Developer
+				</div>
+				<div class="summary">
+					<p>Part of the theming team on a large complex web app rebuild.</p>
+				</div>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>BBC Worldwide</span>
+					<span class="date">
+						2012-10-01 — 2013-02-01
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href="http://bbcgoodfood.com">http://bbcgoodfood.com</a>
+				</div>
+				<div class="position">
+					Drupal Themer - Front-end Developer
+				</div>
+				<div class="summary">
+					<p>Build of new BBC Good FoodIntegrate a complex responsive front-end architecture into a Drupal theme for a traffic intense, image rich, site.Focus on front-end performance via code driven theme development.</p>
+				</div>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>HomeMade Digital Ltd</span>
+					<span class="date">
+						2012-05-01 — 2012-07-01
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href=""></a>
+				</div>
+				<div class="position">
+					Drupal Themer - Front-end Developer
+				</div>
+				<div class="summary">
+					<p>Drupal theming, implemention of a SASS/Compass enabled theme using Mothership.Tasked with retro-fitting a static HTML site design into Drupal build.</p>
+				</div>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Tag1 Consulting, Inc.</span>
+					<span class="date">
+						2012-02-01 — 2012-03-01
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href=""></a>
+				</div>
+				<div class="position">
+					Drupal Themer - Front-end Developer
+				</div>
+				<div class="summary">
+					<p>Advanced theming on a large scale broadcaster&#x27;s video-on-demand service, using SASS.Integration into complex agile development process.Focus on theming ITV Player category, episode pages and watchlist.</p>
+				</div>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Base One</span>
+					<span class="date">
+						2011-12-01 — 2011-12-01
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href=""></a>
+				</div>
+				<div class="position">
+					Drupal Themer - Front-end Developer
+				</div>
+				<div class="summary">
+					<p>Called in to assist with finalise theming of project, while also updating requirements and functionality of platform base theme</p>
+				</div>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Bantalabs</span>
+					<span class="date">
+						2011-09-01 — 2011-09-01
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href=""></a>
+				</div>
+				<div class="position">
+					Drupal Themer - Front-end Developer
+				</div>
+				<div class="summary">
+					<p>Theming for large e-commerce site, working alongside Commerce Guys and Capgemini France</p>
+				</div>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Drupalcon London</span>
+					<span class="date">
+						2011-08-01 — 2011-08-01
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href=""></a>
+				</div>
+				<div class="position">
+					Henry VIII
+				</div>
+				<div class="summary">
+					<p>Led a group of DrupalCon London attendees on the Ubelly London SouthBank pubcrawl</p>
+				</div>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Capgemini</span>
+					<span class="date">
+						2011-07-01 — 2011-08-01
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href="http://www.bristol.gov.uk">http://www.bristol.gov.uk</a>
+				</div>
+				<div class="position">
+					Drupal Themer - Front-end Developer
+				</div>
+				<div class="summary">
+					<p>Involved in the final stages of the Bristol City Council website [bristol.gov.uk], particularly tweaking to optimise accessibility along WCAG 2.0 guidelines and refine a number of User Experience issues.</p>
+				</div>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Public Zone</span>
+					<span class="date">
+						2011-04-01 — 2011-07-01
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href=""></a>
+				</div>
+				<div class="position">
+					Drupal Themer - Front-end Developer
+				</div>
+				<div class="summary">
+					<p>Freelance Drupal themer on Urban Gateway [urbangateway.org] and My Farm [my-farm.org.uk]</p>
+				</div>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Gemin-i.org</span>
+					<span class="date">
+						2010-09-01 — 2011-03-01
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href=""></a>
+				</div>
+				<div class="position">
+					Front-End Developer
+				</div>
+				<div class="summary">
+					<p>HTML5 semantic site architecture and templating of Symfony modules built with developers.Design and UX of Rafiki, social community web application.</p>
+				</div>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Russell Investments</span>
+					<span class="date">
+						2010-02-01 — 2010-04-01
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href=""></a>
+				</div>
+				<div class="position">
+					Front-End Developer
+				</div>
+				<div class="summary">
+					<p>Evaluation of CMS/Template possibilities for build of new website within current hosting restrictions. Build of documented HTML/CSS templates according to in-house designs, training of marketing team for content input. Write detailed specs and docs for handover to replacement developer.</p>
+				</div>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Anderson Norton Design</span>
+					<span class="date">
+						2008-09-01 — 2009-08-01
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href=""></a>
+				</div>
+				<div class="position">
+					Creative Web Developer
+				</div>
+				<div class="summary">
+					<p>Main role consisted of preparing Wireframes and Information Architecture, setting up Drupal websites and implementing theme design, as well as support agent for clients and all static, CMSMadeSimple and Drupal websites. Other functions included managing/installing Debian servers, educating designers on design for the web, training clients on CMS.</p>
+				</div>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>The CogWorks</span>
+					<span class="date">
+						2008-05-01 — 2008-07-01
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href=""></a>
+				</div>
+				<div class="position">
+					Front-End Developer
+				</div>
+				<div class="summary">
+					<p>Cogworks used an in-house ASP.NET CMS, this required implementing design from PSD into a static HTML/CSS model that was then templated for the CMS.</p>
+				</div>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Greenbee.com; John Lewis Partnership</span>
+					<span class="date">
+						2008-05-01 — 2008-05-01
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href=""></a>
+				</div>
+				<div class="position">
+					Graphic &amp; Web Designer
+				</div>
+				<div class="summary">
+					<p>The redesign of greenbee.com required a tighter design harmony with the quote system calling the various Insurance Company APIs, while taking into account the consequent limited flexibility. Updates were also required for the various insurance cover booklets to be provided to customers.</p>
+				</div>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>T5M</span>
+					<span class="date">
+						2007-04-01 — 2008-01-01
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href=""></a>
+				</div>
+				<div class="position">
+					Designer
+				</div>
+				<div class="summary">
+					<p>T5M run a video magazine website, at the time they were working closely with Microsoft, where I would build the various designs to pass on to the developers, this included the use of newly released MS Expression Studio. While the company was still small, I was also IT support and print designer. As the company grew, I specialised in building the corporate site and numerous HTML/CSS snippets to be implemented in the application.</p>
+				</div>
+			</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="volunteer" class="row">
+		<aside class="col-sm-3">
+			<h3>Volunteer</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Restless Development</span>
+					<span class="date">
+						2004-01-15 — 2004-07-20
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href="restlessdevelopment.org/">restlessdevelopment.org/</a>
+				</div>
+				<div class="position">
+					Volunteer
+				</div>
+				<div class="summary">
+					<p></p>
+				</div>
+			</div>
+			</div>
+		</div>
+	</section>
+	
+	<section id="education" class="row">
+		<aside class="col-sm-3">
+			<h3>Education</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Anglia Ruskin University</span>
+					<span class="date">
+						2004-09-01 — 2007-06-01
+					</span>
+				</h4>
+				<div class="area">
+					20th Century European History &amp; Politics and Graphic Design
+				</div>
+				<div class="studyType">
+					
+				</div>
+			</div>
+			</div>
+		</div>
+	</section>
+	
+	
+	
+	<section id="skills" class="row">
+		<aside class="col-sm-3">
+			<h3>Skills</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>Drupal</h4>
+				</div>
+				<ul class="keywords">
+					<li>Theming</li>
+					<li>Site Building</li>
+					<li>Configuration</li>
+					<li>Maintenance</li>
+					<li>Front-end Performance</li>
+				</ul>
+			</div>
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>Front-end Development</h4>
+				</div>
+			</div>
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>Theming</h4>
+				</div>
+			</div>
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>Accessibility</h4>
+				</div>
+			</div>
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>jQuery</h4>
+				</div>
+			</div>
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>User Experience</h4>
+				</div>
+			</div>
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>CSS</h4>
+				</div>
+			</div>
+			<div class="col-sm-6">
+				<div class="name">
+					<h4></h4>
+				</div>
+			</div>
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>Front-end</h4>
+				</div>
+			</div>
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>HTML</h4>
+				</div>
+			</div>
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>SASS</h4>
+				</div>
+			</div>
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>Web Standards</h4>
+				</div>
+			</div>
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>Git</h4>
+				</div>
+			</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="languages" class="row">
+		<aside class="col-sm-3">
+			<h3>Languages</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-4">
+				<div class="language">
+					<strong>English</strong>
+				</div>
+				<div class="fluency">
+					Bilingual
+				</div>
+			</div>
+			<div class="col-sm-4">
+				<div class="language">
+					<strong>French</strong>
+				</div>
+				<div class="fluency">
+					Bilingual
+				</div>
+			</div>
+			<div class="col-sm-4">
+				<div class="language">
+					<strong>German</strong>
+				</div>
+				<div class="fluency">
+					Basic conversational
+				</div>
+			</div>
+			</div>
+		</div>
+	</section>
+
+	
+	<section id="references" class="row">
+		<aside class="col-sm-3">
+			<h3>References</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-12">
+				<blockquote class="reference">
+					<p>Tom really helped us out on a number of occasions by being available at odd hours (including, I think, at midnight on one very stressful Sunday) and we really enjoyed having his friendly face on the team. Good luck Tom hope we can catch up soon!</p>
+					<p class="name">
+						<strong>— James Borrodell Brown</strong>
+					</p>
+				</blockquote>
+			</div>
+			<div class="col-sm-12">
+				<blockquote class="reference">
+					<p>Tom worked on the Drupal theming for a local government site. This had very high requirements in pixel-level precision, browser compatibility, and accessibility. This meant that a very high level of expertise was required and Tom demonstrated that he could consistently deliver. He was highly regarded by colleagues on the delivery team as well as those managing the engagement. I would have no hesitation in hiring Tom again for a Drupal theming role.</p>
+					<p class="name">
+						<strong>— Django Beatty</strong>
+					</p>
+				</blockquote>
+			</div>
+			<div class="col-sm-12">
+				<blockquote class="reference">
+					<p>We engaged Tom to work with us as a themer on a major Drupal project for an international client of the French Capgemini Drupal Factory. Tom put in the long hours required to meet the short deadlines, he proved a valuable resource to the team.The site has since been rolled out in Taiwan and Belgium, and localised versions are soon to be rolled out across the rest of Europe and the Far East.</p>
+					<p class="name">
+						<strong>— Simon Elliott</strong>
+					</p>
+				</blockquote>
+			</div>
+			<div class="col-sm-12">
+				<blockquote class="reference">
+					<p>Tom is an extremely valuable addition to any Drupal team. He works well with others and understands the various issues inherent in the delivery of software. His theming knowledge is beyond compare and due to his deeply embedded status within the Drupal community is a fountain of knowledge, able to bounce ideas around with project managers, product owners and back end developers alike, to come up with the best solution for the task at hand.I would definitely recommend Tom and would work with him again if the opportunity arose.</p>
+					<p class="name">
+						<strong>— Tabitha Winter</strong>
+					</p>
+				</blockquote>
+			</div>
+			<div class="col-sm-12">
+				<blockquote class="reference">
+					<p>Tom is an enthusiastic and keen web developer who constantly researches and experiments with new technologies and web tools. He has a good design eye and an intelligent approach to web development.</p>
+					<p class="name">
+						<strong>— Justin Anderson</strong>
+					</p>
+				</blockquote>
+			</div>
+			<div class="col-sm-12">
+				<blockquote class="reference">
+					<p>I had the pleasure of briefly working alongside Tom while we completed the Bristol City Council website. He was tasked with ensuring the site&#x27;s HTML and CSS was in accordance with the WCAG 2.0 guidelines and a specialist accessibility agency&#x27;s regular reviews. He undertook this challenging task and made it appear effortless. I would not hesitate to recommend or work with Tom again.</p>
+					<p class="name">
+						<strong>— Pete McVicar</strong>
+					</p>
+				</blockquote>
+			</div>
+			<div class="col-sm-12">
+				<blockquote class="reference">
+					<p>Tom is a conscientious and dedicated Drupal themer. I would have no trouble in recommending him!</p>
+					<p class="name">
+						<strong>— Chris Maiden</strong>
+					</p>
+				</blockquote>
+			</div>
+			</div>
+		</div>
+	</section>
+
+	</div>
+	
+	</body>
+</html>

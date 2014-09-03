@@ -1,0 +1,1111 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Tom Bamford</title>
+        <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.1.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+        <style>
+            body {
+    font-family: 'Lato';
+    background: #F0F0F0;
+    color: #333;
+}
+
+.main {
+	padding: 5px;
+}
+
+.card {
+	background: white;
+	border: 1px solid #E6E6E6;
+    border-radius: 3px;
+    min-height: 300px;
+    padding: 10px;
+}
+
+.card-nested {
+    min-height: 0;
+    margin-bottom: 10px;
+    border-width: 1px 0 0 0;
+}
+
+.card-work-experience:last-child {
+    margin-bottom: 0;
+}
+
+.background-card {
+    padding: 10px 20px;
+}
+
+.card-wrapper {
+    padding: 5px;
+}
+
+.profile-pic {
+    padding: 20px 0;
+}
+
+.text-bolder {
+    font-weight: bold;
+}
+
+.contact-details .detail {
+    display: table;
+    padding: 10px 0;
+}
+
+.contact-details .detail .icon {
+    padding: 0 10px;
+    color: #707070;
+}
+
+.contact-details .detail .icon, .contact-details .detail .info {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.contact-details .detail .info{
+	font-size: 0.8em;
+}
+
+.social-link {
+	margin-left: 5px;
+}
+
+.social-link:first-child {
+	margin-left: 0;
+}
+
+.social-link:hover {
+	text-decoration: none;
+}
+
+.link-github {
+	color: #454545;
+}
+
+.link-github:hover {
+    color: black;
+}
+
+.link-twitter {
+    color: #33CCFF;
+}
+
+.link-blog {
+	color: rgb(243, 111, 36);
+}
+
+.link-blog:hover {
+	color: rgb(211, 97, 32);
+}
+
+.background-details .detail {
+	display: table;
+	padding: 10px 0;
+}
+
+.background-details .detail .icon {
+	min-width: 45px;
+	max-width: 45px;
+	text-align: center;
+}
+
+.background-details .detail .title, .background-details .detail .icon {
+	color: # 707070;
+}
+
+.background-details .detail .icon,
+.background-details .detail .info {
+    display: table-cell;
+    padding: 0 10px;
+}
+
+.background-details .detail .info {
+    width: 100% ;
+}
+
+.timeline-circle {
+    width: 10px;
+    height: 10px;
+    border: 2px solid #e2e2e2;
+    border-radius: 50% ;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.timeline-content {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.clear-margin {
+    margin: 0;
+}
+
+.space-top {
+    margin-top: 10px;
+}
+
+.info .content.has-sidebar {
+    width: 80% ;
+    box-sizing: border-box;
+    float: left;
+    padding: 0 10px;
+}
+
+.info .sidebar {
+    margin-left: 80% ;
+    box-sizing: border-box;
+    padding: 10px;
+    border-left: 1px solid #ccc;
+}
+
+        </style>
+    </head>
+
+    <body>
+        <script>
+            window.onload = function () {
+                $(".background-card").css( "min-height", window.screen.availHeight + "px" );
+            }
+        </script>
+        <div class="container-fluid">
+            <div class="row main clearfix">
+                <section class="col-md-3 card-wrapper affix">
+                    <div class="card profile-card">
+                        <div class="profile-pic">
+                            <img class="media-object img-circle center-block"  data-src="holder.js/64x64"
+                                alt="64x64" src="http://www.gravatar.com/avatar/a20bacd99dc49bd9cce86b147f275802?s=100&amp;r=pg&amp;d=mm" style="width: 100px; height: 100px;">
+                        </div>
+                        
+                            <h3 class="text-center text-bolder"> Tom Bamford</h3>
+                            <h5 class="text-muted text-center">Programmer</h5>
+                            <hr>
+
+                            <div class="contact-details clearfix">
+
+                                
+                                    <div class="detail">
+                                        <span class="icon">
+                                            <i class="fa fa-lg fa-location-arrow"></i>
+                                        </span>
+
+                                        
+                                            <span class="info">
+                                                Oxford, ,
+                                                GB
+                                            </span>
+                                        
+                                    </div>
+                                
+
+                                
+                                    <div class="detail">
+                                        <span class="icon">
+                                            <i class="fa fa-lg fa-phone"></i>
+                                        </span>
+
+                                        <span class="info">
+                                            +44 7910357 497
+                                        </span>
+                                    </div>
+                                
+
+                                
+                                    <div class="detail">
+                                        <span class="icon">
+                                            <i class="fa fa-lg fa-envelope"></i>
+                                        </span>
+
+                                        <span class="info">
+                                            tom@halfmesh.com
+                                        </span>
+                                    </div>
+                                
+
+                                
+                                    <div class="detail">
+                                        <span class="icon" title="Languages I speak">
+                                            <i class="fa fa-lg fa-language"></i>
+                                        </span>
+
+                                        <span class="info">
+                                            English, French, German
+                                        </span>
+                                    </div>
+                                
+                            </div>
+
+                            <hr>
+
+                            <div class="social-links text-center">
+                                
+                                
+                                    <a class="fa fa-twitter fa-2x social-link link-twitter"
+                                           href="http://www.twitter.com/waako" target="_blank"></a>
+                                
+                                
+                            </div>
+                        
+                    </div>
+                </section>
+
+                <section class="col-md-9 card-wrapper pull-right">
+                    <div class="card background-card">
+                        <h4 class="text-uppercase text-bolder">Background</h4>
+                        <hr>
+
+                        <div class="background-details">
+                            <div class="detail">
+                                <div class="icon">
+                                    <i class="fa fa-lg fa-user"></i>
+                                </div>
+                                <div class="info">
+                                    <h4 class="title text-uppercase">
+                                        About
+                                    </h4>
+
+                                    <div class="content">
+                                        A multilingual front-end coder, I speak English, CSS, HTML, French, Drupal, all cleanly and semantically of course. Common sense usually prevails throughout, provided a good supply of tea. 
+
+Past projects include: Chatham House, Data.Gov.UK, BBC Good Food, ITV Player, Bristol City Council. 
+
+Working with Drupal for 5 years as a themer. I attended 8 Drupalcamps in 2012 and spoke at 3 about how to stop designing pages and effective on-boarding processes. 
+
+Likes: Open Source, fruit, styleguides, agile and kanban, Git, SASS, Drupal theming, pattern libraries, Github, nonprofits, collaboration, structure and tea. 
+
+Dislikes: static web page design PSDs, messy markup, multi-national corporations, projects without version control, without documentation, without project management, coffee, not being able to learn new things.Frontend United London 2013 co-organiser, a not-for-profit european conference delivering inspiring talks.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="detail">
+                                <div class="icon">
+                                    <i class="fa fa-lg fa-building"></i>
+                                </div>
+                                <div class="info">
+                                    <h4 class="title text-uppercase">
+                                        Work Experience
+                                    </h4>
+
+                                    <ul class="list-unstyled">
+                                        
+                                            <li class="card card-nested clearfix">
+                                                <div class="content has-sidebar">
+                                                    <p><strong>Frontend Developer - Drupal Themer (Freelance)</strong>,&nbsp;Agile Collective</p>
+                                                    <p>Implementation of responsive redesign for Oxford University College website in an agile workflow centred around a client collaboration process.* Drupal* Omega theme* SASS, Compass, Singularity, Breakpoints* Display Suite* Git Flow* Gitlab* Agile Project* Open Atrium* Sprint based development</p>
+                                                    
+                                                        <ul>
+                                                            
+                                                                <li> Linacre College, Oxford University </li>
+                                                            
+                                                        </ul>
+                                                    
+                                                </div>
+
+                                                <div class="sidebar text-muted text-center">
+                                                    <p>
+                                                        <strong>Joined:</strong>&nbsp;
+                                                        May, 2014
+                                                    </p>
+                                                    <p>
+                                                        
+                                                            <strong>Left:</strong>&nbsp;
+                                                            Jul, 2014
+                                                        
+                                                    </p>
+                                                    <p>
+                                                        (2 months)
+                                                    </p>
+                                                </div>
+                                            </li>
+                                        
+                                            <li class="card card-nested clearfix">
+                                                <div class="content has-sidebar">
+                                                    <p><strong>Frontend Developer - Drupal Themer (Freelance)</strong>,&nbsp;Blue Dot Lab</p>
+                                                    <p>Bootstrap, flatly based, theme across a multi-domain, multi-site Drupal instance.* Drupal* Bootstrap theme* SASS, Compass* Display Suite* pre/process functions* Code/Features based development* Git Flow* Pantheon* Agile Project* Open Atrium* Sprint based development</p>
+                                                    
+                                                </div>
+
+                                                <div class="sidebar text-muted text-center">
+                                                    <p>
+                                                        <strong>Joined:</strong>&nbsp;
+                                                        Mar, 2014
+                                                    </p>
+                                                    <p>
+                                                        
+                                                            <strong>Left:</strong>&nbsp;
+                                                            May, 2014
+                                                        
+                                                    </p>
+                                                    <p>
+                                                        (2 months)
+                                                    </p>
+                                                </div>
+                                            </li>
+                                        
+                                            <li class="card card-nested clearfix">
+                                                <div class="content has-sidebar">
+                                                    <p><strong>Frontend Developer - Drupal Themer (Freelance)</strong>,&nbsp;White October</p>
+                                                    <p>Support and train Frontend developer to be independent in Drupal theming: - How to expose theme template files to amend core markup.- Use and modify theme functions, allowing to enable theme template file overrides.- Implement complex theme functions.* Drupal* Bootstrap theme* LESS* Display Suite* Git Flow* Github* Agile Project* Jira* Sprint based development</p>
+                                                    
+                                                </div>
+
+                                                <div class="sidebar text-muted text-center">
+                                                    <p>
+                                                        <strong>Joined:</strong>&nbsp;
+                                                        Feb, 2014
+                                                    </p>
+                                                    <p>
+                                                        
+                                                            <strong>Left:</strong>&nbsp;
+                                                            Mar, 2014
+                                                        
+                                                    </p>
+                                                    <p>
+                                                        (1 month)
+                                                    </p>
+                                                </div>
+                                            </li>
+                                        
+                                            <li class="card card-nested clearfix">
+                                                <div class="content has-sidebar">
+                                                    <p><strong>Frontend Developer - Drupal Themer (Freelance)</strong>,&nbsp;Torchbox</p>
+                                                    <p>Support existing team in responsive build of Chatham House redesign http://www.chathamhouse.org/ based on HTML designs.* Drupal* LESS* Display Suite* Git Flow* CodebaseHQ* Sprint based development</p>
+                                                    
+                                                </div>
+
+                                                <div class="sidebar text-muted text-center">
+                                                    <p>
+                                                        <strong>Joined:</strong>&nbsp;
+                                                        Dec, 2013
+                                                    </p>
+                                                    <p>
+                                                        
+                                                            <strong>Left:</strong>&nbsp;
+                                                            Feb, 2014
+                                                        
+                                                    </p>
+                                                    <p>
+                                                        (1 month)
+                                                    </p>
+                                                </div>
+                                            </li>
+                                        
+                                            <li class="card card-nested clearfix">
+                                                <div class="content has-sidebar">
+                                                    <p><strong>Frontend Developer - Drupal Themer (Freelance)</strong>,&nbsp;Coast Digital</p>
+                                                    <p>Tight deadline to implement a base theme (using Bootstrap 3) as foundation for multi-site.Focus on use of Bootstrap features and components within Drupal, including Views, Panels and search.</p>
+                                                    
+                                                </div>
+
+                                                <div class="sidebar text-muted text-center">
+                                                    <p>
+                                                        <strong>Joined:</strong>&nbsp;
+                                                        Nov, 2013
+                                                    </p>
+                                                    <p>
+                                                        
+                                                            <strong>Left:</strong>&nbsp;
+                                                            Dec, 2013
+                                                        
+                                                    </p>
+                                                    <p>
+                                                        (1 month)
+                                                    </p>
+                                                </div>
+                                            </li>
+                                        
+                                            <li class="card card-nested clearfix">
+                                                <div class="content has-sidebar">
+                                                    <p><strong>Frontend Developer - Drupal Themer (Freelance)</strong>,&nbsp;Cabinet Office</p>
+                                                    <p>Delivered responsive Drupal theme for redesigned http://data.gov.uk on short notice and to tight deadline.All frontend assets (css/js/fonts/images) were shared with CKAN templates in a separate repository, to allow as much reusability of code as possible.</p>
+                                                    
+                                                </div>
+
+                                                <div class="sidebar text-muted text-center">
+                                                    <p>
+                                                        <strong>Joined:</strong>&nbsp;
+                                                        Sep, 2013
+                                                    </p>
+                                                    <p>
+                                                        
+                                                            <strong>Left:</strong>&nbsp;
+                                                            Oct, 2013
+                                                        
+                                                    </p>
+                                                    <p>
+                                                        (1 month)
+                                                    </p>
+                                                </div>
+                                            </li>
+                                        
+                                            <li class="card card-nested clearfix">
+                                                <div class="content has-sidebar">
+                                                    <p><strong>Trustee &amp; Director of Technical Strategems</strong>,&nbsp;Narcolepsy UK</p>
+                                                    <p>Member of Web and Marketing committee to enhance the web presence and ensure a wide audience reach</p>
+                                                    
+                                                </div>
+
+                                                <div class="sidebar text-muted text-center">
+                                                    <p>
+                                                        <strong>Joined:</strong>&nbsp;
+                                                        Jul, 2011
+                                                    </p>
+                                                    <p>
+                                                        
+                                                            <strong>Left:</strong>&nbsp;
+                                                            Aug, 2013
+                                                        
+                                                    </p>
+                                                    <p>
+                                                        (2 years 1 month)
+                                                    </p>
+                                                </div>
+                                            </li>
+                                        
+                                            <li class="card card-nested clearfix">
+                                                <div class="content has-sidebar">
+                                                    <p><strong>Drupal Themer - Front-end Developer</strong>,&nbsp;Tag1 Consulting, Inc.</p>
+                                                    <p>Part of the theming team on a large complex web app rebuild.</p>
+                                                    
+                                                </div>
+
+                                                <div class="sidebar text-muted text-center">
+                                                    <p>
+                                                        <strong>Joined:</strong>&nbsp;
+                                                        Jul, 2013
+                                                    </p>
+                                                    <p>
+                                                        
+                                                            <strong>Left:</strong>&nbsp;
+                                                            Jul, 2013
+                                                        
+                                                    </p>
+                                                    <p>
+                                                        (0 day)
+                                                    </p>
+                                                </div>
+                                            </li>
+                                        
+                                            <li class="card card-nested clearfix">
+                                                <div class="content has-sidebar">
+                                                    <p><strong>Drupal Themer - Front-end Developer</strong>,&nbsp;BBC Worldwide</p>
+                                                    <p>Build of new BBC Good FoodIntegrate a complex responsive front-end architecture into a Drupal theme for a traffic intense, image rich, site.Focus on front-end performance via code driven theme development.</p>
+                                                    
+                                                </div>
+
+                                                <div class="sidebar text-muted text-center">
+                                                    <p>
+                                                        <strong>Joined:</strong>&nbsp;
+                                                        Sep, 2012
+                                                    </p>
+                                                    <p>
+                                                        
+                                                            <strong>Left:</strong>&nbsp;
+                                                            Jan, 2013
+                                                        
+                                                    </p>
+                                                    <p>
+                                                        (4 months)
+                                                    </p>
+                                                </div>
+                                            </li>
+                                        
+                                            <li class="card card-nested clearfix">
+                                                <div class="content has-sidebar">
+                                                    <p><strong>Drupal Themer - Front-end Developer</strong>,&nbsp;HomeMade Digital Ltd</p>
+                                                    <p>Drupal theming, implemention of a SASS/Compass enabled theme using Mothership.Tasked with retro-fitting a static HTML site design into Drupal build.</p>
+                                                    
+                                                </div>
+
+                                                <div class="sidebar text-muted text-center">
+                                                    <p>
+                                                        <strong>Joined:</strong>&nbsp;
+                                                        Apr, 2012
+                                                    </p>
+                                                    <p>
+                                                        
+                                                            <strong>Left:</strong>&nbsp;
+                                                            Jun, 2012
+                                                        
+                                                    </p>
+                                                    <p>
+                                                        (2 months)
+                                                    </p>
+                                                </div>
+                                            </li>
+                                        
+                                            <li class="card card-nested clearfix">
+                                                <div class="content has-sidebar">
+                                                    <p><strong>Drupal Themer - Front-end Developer</strong>,&nbsp;Tag1 Consulting, Inc.</p>
+                                                    <p>Advanced theming on a large scale broadcaster&#x27;s video-on-demand service, using SASS.Integration into complex agile development process.Focus on theming ITV Player category, episode pages and watchlist.</p>
+                                                    
+                                                </div>
+
+                                                <div class="sidebar text-muted text-center">
+                                                    <p>
+                                                        <strong>Joined:</strong>&nbsp;
+                                                        Jan, 2012
+                                                    </p>
+                                                    <p>
+                                                        
+                                                            <strong>Left:</strong>&nbsp;
+                                                            Feb, 2012
+                                                        
+                                                    </p>
+                                                    <p>
+                                                        (29 days)
+                                                    </p>
+                                                </div>
+                                            </li>
+                                        
+                                            <li class="card card-nested clearfix">
+                                                <div class="content has-sidebar">
+                                                    <p><strong>Drupal Themer - Front-end Developer</strong>,&nbsp;Base One</p>
+                                                    <p>Called in to assist with finalise theming of project, while also updating requirements and functionality of platform base theme</p>
+                                                    
+                                                </div>
+
+                                                <div class="sidebar text-muted text-center">
+                                                    <p>
+                                                        <strong>Joined:</strong>&nbsp;
+                                                        Nov, 2011
+                                                    </p>
+                                                    <p>
+                                                        
+                                                            <strong>Left:</strong>&nbsp;
+                                                            Nov, 2011
+                                                        
+                                                    </p>
+                                                    <p>
+                                                        (0 day)
+                                                    </p>
+                                                </div>
+                                            </li>
+                                        
+                                            <li class="card card-nested clearfix">
+                                                <div class="content has-sidebar">
+                                                    <p><strong>Drupal Themer - Front-end Developer</strong>,&nbsp;Bantalabs</p>
+                                                    <p>Theming for large e-commerce site, working alongside Commerce Guys and Capgemini France</p>
+                                                    
+                                                </div>
+
+                                                <div class="sidebar text-muted text-center">
+                                                    <p>
+                                                        <strong>Joined:</strong>&nbsp;
+                                                        Aug, 2011
+                                                    </p>
+                                                    <p>
+                                                        
+                                                            <strong>Left:</strong>&nbsp;
+                                                            Aug, 2011
+                                                        
+                                                    </p>
+                                                    <p>
+                                                        (0 day)
+                                                    </p>
+                                                </div>
+                                            </li>
+                                        
+                                            <li class="card card-nested clearfix">
+                                                <div class="content has-sidebar">
+                                                    <p><strong>Henry VIII</strong>,&nbsp;Drupalcon London</p>
+                                                    <p>Led a group of DrupalCon London attendees on the Ubelly London SouthBank pubcrawl</p>
+                                                    
+                                                </div>
+
+                                                <div class="sidebar text-muted text-center">
+                                                    <p>
+                                                        <strong>Joined:</strong>&nbsp;
+                                                        Jul, 2011
+                                                    </p>
+                                                    <p>
+                                                        
+                                                            <strong>Left:</strong>&nbsp;
+                                                            Jul, 2011
+                                                        
+                                                    </p>
+                                                    <p>
+                                                        (0 day)
+                                                    </p>
+                                                </div>
+                                            </li>
+                                        
+                                            <li class="card card-nested clearfix">
+                                                <div class="content has-sidebar">
+                                                    <p><strong>Drupal Themer - Front-end Developer</strong>,&nbsp;Capgemini</p>
+                                                    <p>Involved in the final stages of the Bristol City Council website [bristol.gov.uk], particularly tweaking to optimise accessibility along WCAG 2.0 guidelines and refine a number of User Experience issues.</p>
+                                                    
+                                                </div>
+
+                                                <div class="sidebar text-muted text-center">
+                                                    <p>
+                                                        <strong>Joined:</strong>&nbsp;
+                                                        Jun, 2011
+                                                    </p>
+                                                    <p>
+                                                        
+                                                            <strong>Left:</strong>&nbsp;
+                                                            Jul, 2011
+                                                        
+                                                    </p>
+                                                    <p>
+                                                        (1 month)
+                                                    </p>
+                                                </div>
+                                            </li>
+                                        
+                                            <li class="card card-nested clearfix">
+                                                <div class="content has-sidebar">
+                                                    <p><strong>Drupal Themer - Front-end Developer</strong>,&nbsp;Public Zone</p>
+                                                    <p>Freelance Drupal themer on Urban Gateway [urbangateway.org] and My Farm [my-farm.org.uk]</p>
+                                                    
+                                                </div>
+
+                                                <div class="sidebar text-muted text-center">
+                                                    <p>
+                                                        <strong>Joined:</strong>&nbsp;
+                                                        Mar, 2011
+                                                    </p>
+                                                    <p>
+                                                        
+                                                            <strong>Left:</strong>&nbsp;
+                                                            Jun, 2011
+                                                        
+                                                    </p>
+                                                    <p>
+                                                        (3 months)
+                                                    </p>
+                                                </div>
+                                            </li>
+                                        
+                                            <li class="card card-nested clearfix">
+                                                <div class="content has-sidebar">
+                                                    <p><strong>Front-End Developer</strong>,&nbsp;Gemin-i.org</p>
+                                                    <p>HTML5 semantic site architecture and templating of Symfony modules built with developers.Design and UX of Rafiki, social community web application.</p>
+                                                    
+                                                </div>
+
+                                                <div class="sidebar text-muted text-center">
+                                                    <p>
+                                                        <strong>Joined:</strong>&nbsp;
+                                                        Aug, 2010
+                                                    </p>
+                                                    <p>
+                                                        
+                                                            <strong>Left:</strong>&nbsp;
+                                                            Feb, 2011
+                                                        
+                                                    </p>
+                                                    <p>
+                                                        (6 months)
+                                                    </p>
+                                                </div>
+                                            </li>
+                                        
+                                            <li class="card card-nested clearfix">
+                                                <div class="content has-sidebar">
+                                                    <p><strong>Front-End Developer</strong>,&nbsp;Russell Investments</p>
+                                                    <p>Evaluation of CMS/Template possibilities for build of new website within current hosting restrictions. Build of documented HTML/CSS templates according to in-house designs, training of marketing team for content input. Write detailed specs and docs for handover to replacement developer.</p>
+                                                    
+                                                </div>
+
+                                                <div class="sidebar text-muted text-center">
+                                                    <p>
+                                                        <strong>Joined:</strong>&nbsp;
+                                                        Jan, 2010
+                                                    </p>
+                                                    <p>
+                                                        
+                                                            <strong>Left:</strong>&nbsp;
+                                                            Mar, 2010
+                                                        
+                                                    </p>
+                                                    <p>
+                                                        (1 month)
+                                                    </p>
+                                                </div>
+                                            </li>
+                                        
+                                            <li class="card card-nested clearfix">
+                                                <div class="content has-sidebar">
+                                                    <p><strong>Creative Web Developer</strong>,&nbsp;Anderson Norton Design</p>
+                                                    <p>Main role consisted of preparing Wireframes and Information Architecture, setting up Drupal websites and implementing theme design, as well as support agent for clients and all static, CMSMadeSimple and Drupal websites. Other functions included managing/installing Debian servers, educating designers on design for the web, training clients on CMS.</p>
+                                                    
+                                                </div>
+
+                                                <div class="sidebar text-muted text-center">
+                                                    <p>
+                                                        <strong>Joined:</strong>&nbsp;
+                                                        Aug, 2008
+                                                    </p>
+                                                    <p>
+                                                        
+                                                            <strong>Left:</strong>&nbsp;
+                                                            Jul, 2009
+                                                        
+                                                    </p>
+                                                    <p>
+                                                        (11 months)
+                                                    </p>
+                                                </div>
+                                            </li>
+                                        
+                                            <li class="card card-nested clearfix">
+                                                <div class="content has-sidebar">
+                                                    <p><strong>Front-End Developer</strong>,&nbsp;The CogWorks</p>
+                                                    <p>Cogworks used an in-house ASP.NET CMS, this required implementing design from PSD into a static HTML/CSS model that was then templated for the CMS.</p>
+                                                    
+                                                </div>
+
+                                                <div class="sidebar text-muted text-center">
+                                                    <p>
+                                                        <strong>Joined:</strong>&nbsp;
+                                                        Apr, 2008
+                                                    </p>
+                                                    <p>
+                                                        
+                                                            <strong>Left:</strong>&nbsp;
+                                                            Jun, 2008
+                                                        
+                                                    </p>
+                                                    <p>
+                                                        (2 months)
+                                                    </p>
+                                                </div>
+                                            </li>
+                                        
+                                            <li class="card card-nested clearfix">
+                                                <div class="content has-sidebar">
+                                                    <p><strong>Graphic &amp; Web Designer</strong>,&nbsp;Greenbee.com; John Lewis Partnership</p>
+                                                    <p>The redesign of greenbee.com required a tighter design harmony with the quote system calling the various Insurance Company APIs, while taking into account the consequent limited flexibility. Updates were also required for the various insurance cover booklets to be provided to customers.</p>
+                                                    
+                                                </div>
+
+                                                <div class="sidebar text-muted text-center">
+                                                    <p>
+                                                        <strong>Joined:</strong>&nbsp;
+                                                        Apr, 2008
+                                                    </p>
+                                                    <p>
+                                                        
+                                                            <strong>Left:</strong>&nbsp;
+                                                            Apr, 2008
+                                                        
+                                                    </p>
+                                                    <p>
+                                                        (0 day)
+                                                    </p>
+                                                </div>
+                                            </li>
+                                        
+                                            <li class="card card-nested clearfix">
+                                                <div class="content has-sidebar">
+                                                    <p><strong>Designer</strong>,&nbsp;T5M</p>
+                                                    <p>T5M run a video magazine website, at the time they were working closely with Microsoft, where I would build the various designs to pass on to the developers, this included the use of newly released MS Expression Studio. While the company was still small, I was also IT support and print designer. As the company grew, I specialised in building the corporate site and numerous HTML/CSS snippets to be implemented in the application.</p>
+                                                    
+                                                </div>
+
+                                                <div class="sidebar text-muted text-center">
+                                                    <p>
+                                                        <strong>Joined:</strong>&nbsp;
+                                                        Mar, 2007
+                                                    </p>
+                                                    <p>
+                                                        
+                                                            <strong>Left:</strong>&nbsp;
+                                                            Dec, 2007
+                                                        
+                                                    </p>
+                                                    <p>
+                                                        (9 months)
+                                                    </p>
+                                                </div>
+                                            </li>
+                                        
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="detail">
+                                <div class="icon">
+                                    <i class="fa fa-lg fa-code"></i>
+                                </div>
+                                <div class="info">
+                                    <h4 class="title text-uppercase">
+                                        Skills
+                                    </h4>
+
+                                    <div class="content">
+                                        <ul class="list-unstyled">
+                                            
+                                                <li class="card card-nested">
+                                                    <strong>Drupal</strong>
+
+                                                    <div class="space-top">
+                                                        
+                                                            <span class="label label-primary">Theming</span>
+                                                        
+                                                            <span class="label label-primary">Site Building</span>
+                                                        
+                                                            <span class="label label-primary">Configuration</span>
+                                                        
+                                                            <span class="label label-primary">Maintenance</span>
+                                                        
+                                                            <span class="label label-primary">Front-end Performance</span>
+                                                        
+                                                    </div>
+                                                </li>
+                                            
+                                                <li class="card card-nested">
+                                                    <strong>Front-end Development</strong>
+
+                                                    <div class="space-top">
+                                                        
+                                                    </div>
+                                                </li>
+                                            
+                                                <li class="card card-nested">
+                                                    <strong>Theming</strong>
+
+                                                    <div class="space-top">
+                                                        
+                                                    </div>
+                                                </li>
+                                            
+                                                <li class="card card-nested">
+                                                    <strong>Accessibility</strong>
+
+                                                    <div class="space-top">
+                                                        
+                                                    </div>
+                                                </li>
+                                            
+                                                <li class="card card-nested">
+                                                    <strong>jQuery</strong>
+
+                                                    <div class="space-top">
+                                                        
+                                                    </div>
+                                                </li>
+                                            
+                                                <li class="card card-nested">
+                                                    <strong>User Experience</strong>
+
+                                                    <div class="space-top">
+                                                        
+                                                    </div>
+                                                </li>
+                                            
+                                                <li class="card card-nested">
+                                                    <strong>CSS</strong>
+
+                                                    <div class="space-top">
+                                                        
+                                                    </div>
+                                                </li>
+                                            
+                                                <li class="card card-nested">
+                                                    <strong></strong>
+
+                                                    <div class="space-top">
+                                                        
+                                                    </div>
+                                                </li>
+                                            
+                                                <li class="card card-nested">
+                                                    <strong>Front-end</strong>
+
+                                                    <div class="space-top">
+                                                        
+                                                    </div>
+                                                </li>
+                                            
+                                                <li class="card card-nested">
+                                                    <strong>HTML</strong>
+
+                                                    <div class="space-top">
+                                                        
+                                                    </div>
+                                                </li>
+                                            
+                                                <li class="card card-nested">
+                                                    <strong>SASS</strong>
+
+                                                    <div class="space-top">
+                                                        
+                                                    </div>
+                                                </li>
+                                            
+                                                <li class="card card-nested">
+                                                    <strong>Web Standards</strong>
+
+                                                    <div class="space-top">
+                                                        
+                                                    </div>
+                                                </li>
+                                            
+                                                <li class="card card-nested">
+                                                    <strong>Git</strong>
+
+                                                    <div class="space-top">
+                                                        
+                                                    </div>
+                                                </li>
+                                            
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="detail">
+                                <div class="icon">
+                                    <i class="fa fa-lg fa-mortar-board"></i>
+                                </div>
+                                <div class="info">
+                                    <h4 class="title text-uppercase">
+                                        Education
+                                    </h4>
+
+                                    <div class="content">
+                                        <ul class="list-unstyled">
+                                            
+                                                <li class="card card-nested">
+                                                    <p>
+                                                        <strong>20th Century European History &amp; Politics and Graphic Design, </strong>,&nbsp;
+                                                        Anglia Ruskin University
+                                                        <small class="text-muted pull-right">
+                                                            2004-09-01 - 2007-06-01
+                                                        </small>
+                                                    </p>
+                                                    <div class="space-top">
+                                                        
+                                                    </div>
+                                            
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                            
+
+                            
+                                <div class="detail">
+                                    <div class="icon">
+                                        <i class="fa fa-lg fa-child"></i>
+                                    </div>
+                                    <div class="info">
+                                        <h4 class="title text-uppercase">
+                                            Volunteer Work
+                                        </h4>
+
+                                        <div class="content">
+                                            <ul class="list-unstyled">
+                                                
+                                                    <li class="card card-nested">
+                                                        <p>
+                                                            <strong>Volunteer</strong>,&nbsp;
+                                                            Restless Development
+                                                            <small class="pull-right text-muted">
+                                                                2004-01-15 - 2004-07-20
+                                                            </small>
+                                                        </p>
+                                                        <p></p>
+                                                        <ul>
+                                                            
+                                                        </ul>
+                                                    </li>
+                                                
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            
+
+                            
+
+                            
+
+                            
+                                <div class="detail">
+                                    <div class="icon">
+                                        <i class="fa fa-lg fa-thumbs-up"></i>
+                                    </div>
+                                    <div class="info">
+                                        <h4 class="title text-uppercase">
+                                            References
+                                        </h4>
+
+                                        <div class="content">
+                                            <ul class="list-unstyled">
+                                                
+                                                    <li class="card card-nested">
+                                                        <p>
+                                                            <strong>James Borrodell Brown</strong>
+                                                        </p>
+                                                        <p class="clear-margin">Tom really helped us out on a number of occasions by being available at odd hours (including, I think, at midnight on one very stressful Sunday) and we really enjoyed having his friendly face on the team. Good luck Tom hope we can catch up soon!</p>
+                                                    </li>
+                                                
+                                                    <li class="card card-nested">
+                                                        <p>
+                                                            <strong>Django Beatty</strong>
+                                                        </p>
+                                                        <p class="clear-margin">Tom worked on the Drupal theming for a local government site. This had very high requirements in pixel-level precision, browser compatibility, and accessibility. This meant that a very high level of expertise was required and Tom demonstrated that he could consistently deliver. He was highly regarded by colleagues on the delivery team as well as those managing the engagement. I would have no hesitation in hiring Tom again for a Drupal theming role.</p>
+                                                    </li>
+                                                
+                                                    <li class="card card-nested">
+                                                        <p>
+                                                            <strong>Simon Elliott</strong>
+                                                        </p>
+                                                        <p class="clear-margin">We engaged Tom to work with us as a themer on a major Drupal project for an international client of the French Capgemini Drupal Factory. Tom put in the long hours required to meet the short deadlines, he proved a valuable resource to the team.The site has since been rolled out in Taiwan and Belgium, and localised versions are soon to be rolled out across the rest of Europe and the Far East.</p>
+                                                    </li>
+                                                
+                                                    <li class="card card-nested">
+                                                        <p>
+                                                            <strong>Tabitha Winter</strong>
+                                                        </p>
+                                                        <p class="clear-margin">Tom is an extremely valuable addition to any Drupal team. He works well with others and understands the various issues inherent in the delivery of software. His theming knowledge is beyond compare and due to his deeply embedded status within the Drupal community is a fountain of knowledge, able to bounce ideas around with project managers, product owners and back end developers alike, to come up with the best solution for the task at hand.I would definitely recommend Tom and would work with him again if the opportunity arose.</p>
+                                                    </li>
+                                                
+                                                    <li class="card card-nested">
+                                                        <p>
+                                                            <strong>Justin Anderson</strong>
+                                                        </p>
+                                                        <p class="clear-margin">Tom is an enthusiastic and keen web developer who constantly researches and experiments with new technologies and web tools. He has a good design eye and an intelligent approach to web development.</p>
+                                                    </li>
+                                                
+                                                    <li class="card card-nested">
+                                                        <p>
+                                                            <strong>Pete McVicar</strong>
+                                                        </p>
+                                                        <p class="clear-margin">I had the pleasure of briefly working alongside Tom while we completed the Bristol City Council website. He was tasked with ensuring the site&#x27;s HTML and CSS was in accordance with the WCAG 2.0 guidelines and a specialist accessibility agency&#x27;s regular reviews. He undertook this challenging task and made it appear effortless. I would not hesitate to recommend or work with Tom again.</p>
+                                                    </li>
+                                                
+                                                    <li class="card card-nested">
+                                                        <p>
+                                                            <strong>Chris Maiden</strong>
+                                                        </p>
+                                                        <p class="clear-margin">Tom is a conscientious and dedicated Drupal themer. I would have no trouble in recommending him!</p>
+                                                    </li>
+                                                
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            
+
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+
+        <link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    </body>
+</html>

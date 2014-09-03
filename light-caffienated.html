@@ -1,0 +1,719 @@
+<!doctype html>
+<html class="no-js">
+    <head>
+        <meta charset="utf-8">
+        <title> </title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <!-- build:css styles/vendor.css -->
+        <!-- bower:css -->
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" />
+        <!-- endbower -->
+        <!-- endbuild -->
+
+        <!-- build:css styles/main.css -->
+        <link rel="stylesheet" href="resume.css">
+        <!-- endbuild -->
+        <style type="text/css">
+        @import url(http://fonts.googleapis.com/css?family=Montserrat);
+        @import url(http://fonts.googleapis.com/css?family=Open+Sans);
+
+
+        body
+        {
+          font-family : Open Sans;
+          line-height : 23px;
+        }
+
+        img
+        {
+          max-height : 150px;
+        }
+
+        h1,h2,h3,h4,h5,h6
+        {
+          font-family : Montserrat;
+        }
+
+        .section-title
+        {
+          border-bottom-style : solid;
+          border-bottom-width : 1px;
+          border-bottom-color : #EAEDF1;
+          padding-bottom : 0.5em;
+          margin-bottom : 0.5em;
+          margin-top : 1em;
+        }
+        .browsehappy {
+            margin: 0.2em 0;
+            background: #ccc;
+            color: #000;
+            padding: 0.2em 0;
+        }
+
+        .navbar
+        {
+          background-color :white;
+          color : #6C7A89;
+        }
+
+        .name
+        {
+          margin-top : 8px;
+        }
+
+        /*
+        * Professional Experiences
+        */
+
+        .cbp_tmtimeline {
+            margin: 30px 0 0 0;
+            padding: 0;
+            list-style: none;
+            position: relative;
+        }
+
+        /* The line */
+        .cbp_tmtimeline:before {
+            content: '';
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            width: 10px;
+            //background:#bdc3c7;
+            background : #EAEDF1;
+            left: 20%;
+            margin-left: -10px;
+        }
+
+        .cbp_tmtimeline > li {
+            position: relative;
+        }
+
+        /* The date/time */
+        .cbp_tmtimeline > li .cbp_tmtime {
+            display: block;
+            width: 25%;
+            padding-right: 100px;
+            position: absolute;
+        }
+
+        .cbp_tmtimeline > li .cbp_tmtime span {
+            display: block;
+            text-align: right;
+        }
+
+        .cbp_tmtimeline > li .cbp_tmtime span:first-child {
+            font-size: 1em;
+            color: #bdd0db;
+        }
+
+        .cbp_tmtimeline > li .cbp_tmtime span:last-child {
+            font-size: 2em;
+            color: #67809F;
+        }
+
+        .cbp_tmtimeline > li:nth-child(odd) .cbp_tmtime span:last-child {
+            color: #67809F ;
+        }
+
+        /* Right content */
+        .cbp_tmtimeline > li .cbp_tmlabel {
+            margin: 0 0 15px 25%;
+            background : white;
+            font-weight: 300;
+            line-height: 1.4;
+            position: relative;
+            border-radius: 4px;
+            border-color : #EAEDF1;
+            border-style : solid;
+        }
+
+        .cbp_tmtimeline > li .cbp_tmlabel h2 {
+            margin-top: 0px;
+            font-size : 1.3em;
+            text-transform : uppercase;
+            padding: 0.5em 0.5em 5px 0.5em;
+            background : #EAEDF1;
+            border-bottom: 1px solid rgba(255,255,255,0.4);
+        }
+
+        .cbp_tmtimeline > li .cbp_tmlabel .company{
+          font-size : 0.7em;
+          float : right;
+        }
+
+        .cbp_tmtimeline > li .cbp_tmlabel .tags{
+
+          padding: 0.5em 0.5em 5px 0.5em;
+        }
+
+        .cbp_tmtimeline > li .cbp_tmlabel .tags .taggroup{
+          text-align : right;
+        }
+
+        .cbp_tmtimeline > li .cbp_tmlabel .tags .taggroup .greenbadge{
+          background-color : #1abc9c;
+        }
+        .cbp_tmtimeline > li .cbp_tmlabel p {
+            padding: 0 0 5px 1em;
+        }
+
+        .cbp_tmtimeline > li .cbp_tmlabel a {
+            color : #67809F;
+        }
+
+
+        /* The triangle */
+        .cbp_tmtimeline > li .cbp_tmlabel:after {
+            right: 100%;
+            border: solid transparent;
+            content: " ";
+            height: 0;
+            width: 0;
+            position: absolute;
+            pointer-events: none;
+
+            border-right-color : #EAEDF1;
+            border-width: 10px;
+            top: 10px;
+        }
+
+        /* The icons */
+        .cbp_tmtimeline > li .cbp_tmicon {
+            width: 40px;
+            height: 40px;
+            speak: none;
+            font-style: normal;
+            font-weight: normal;
+            font-variant: normal;
+            text-transform: none;
+            font-size: 1.4em;
+            line-height: 40px;
+            -webkit-font-smoothing: antialiased;
+            position: absolute;
+            color: #fff;
+            background: #bdc3c7;
+            border-radius: 50%;
+            box-shadow: 0 0 0 5px #95a5a6;
+            text-align: center;
+            left: 20%;
+            top: 0;
+            margin: 0 0 0 -25px;
+        }
+
+        /* Example Media Queries */
+        @media screen and (max-width: 65.375em) {
+
+            .cbp_tmtimeline > li .cbp_tmtime span:last-child {
+                font-size: 1.5em;
+            }
+        }
+
+        @media screen and (max-width: 47.2em) {
+            .cbp_tmtimeline:before {
+                display: none;
+            }
+
+            .cbp_tmtimeline > li .cbp_tmtime {
+                width: 100%;
+                position: relative;
+                padding: 0 0 20px 0;
+            }
+
+            .cbp_tmtimeline > li .cbp_tmtime span {
+                text-align: left;
+            }
+
+            .cbp_tmtimeline > li .cbp_tmlabel {
+                margin: 0 0 30px 0;
+                padding: 1em;
+                font-weight: 400;
+                font-size: 95%;
+            }
+
+            .cbp_tmtimeline > li .cbp_tmlabel:after {
+                right: auto;
+                left: 20px;
+                border-right-color: transparent;
+                border-bottom-color: #3594cb;
+                top: -20px;
+            }
+
+            .cbp_tmtimeline > li:nth-child(odd) .cbp_tmlabel:after {
+                border-right-color: transparent;
+                border-bottom-color: #6cbfee;
+            }
+
+            .cbp_tmtimeline > li .cbp_tmicon {
+                position: relative;
+                float: right;
+                left: auto;
+                margin: -55px 5px 0 0px;
+            }
+        }
+
+        #experience
+        {
+          margin-top : 50px;
+        }
+
+        #projects
+        {
+
+        }
+
+        #projects .tagsgroup
+        {
+          text-align : right;
+        }
+
+        .greenbadge
+        {
+          background : #67809F;
+        }
+
+        .darkgreenbadge
+        {
+          background : #67809F;
+        }
+
+        .greybadge
+        {
+            background: #6C7A89;
+        }
+
+
+        </style>
+    </head>
+    <body>
+        <!--[if lt IE 10]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        <div class="container-fluid">
+        <nav class="navbar navbar-default" role="navigation">
+          <div class="container-fluid">
+      <!-- Collect the nav links, forms, and other content for toggling -->
+              <div class="collapse navbar-collapse">
+                <h2 class="nav navbar-nav navbar-left name"> </h2>
+                <ul class="nav navbar-nav navbar-right">
+                  <li><a href="#experience">Professional experience</a></li>
+                  <li><a href="#skills">Skills</a></li>
+                </ul>
+              </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
+        </nav>
+      </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12">
+              <h2 class="section-title">About me</h2>
+            </div>
+          </div>
+          <div class="row">
+
+            <div class="col-xs-2">
+              <a class="text-center" href="#">
+                <img class="media-object img-circle" src="">
+              </a>
+            </div>
+            <div class="col-xs-10">
+              <div class="media">
+                <div class="media-body">
+                  <h3>Bio</h3>
+                  <p>
+                    
+                  </p>
+                  <h3>Email</h3>
+                  <p>
+                    
+                  </p>
+                  <h3>Phone Number</h3>
+                  <p>
+                    
+                  </p>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+        <div class="container" id="experience">
+          <h2 class="section-title">Professional Experience</h2>
+            <ul class="cbp_tmtimeline">
+              <li>
+                  <time class="cbp_tmtime" datetime=""><span>2 months</span> <span>2014</span></time>
+                  <div class="cbp_tmicon cbp_tmicon-phone"></div>
+                  <div class="cbp_tmlabel">
+                      <h2>Frontend Developer - Drupal Themer (Freelance)<span class="company"><a href="http:&#x2F;&#x2F;agilecollective.com&#x2F;">Agile Collective</a></span></h2>
+                      <p>
+                      <i>Implementation of responsive redesign for Oxford University College website in an agile workflow centred around a client collaboration process.* Drupal* Omega theme* SASS, Compass, Singularity, Breakpoints* Display Suite* Git Flow* Gitlab* Agile Project* Open Atrium* Sprint based development</i>
+                        <ul>
+                          <li>Linacre College, Oxford University</li>
+                        </ul>
+                      </p>
+                  </div>
+              </li>
+              <li>
+                  <time class="cbp_tmtime" datetime=""><span>2 months</span> <span>2014</span></time>
+                  <div class="cbp_tmicon cbp_tmicon-phone"></div>
+                  <div class="cbp_tmlabel">
+                      <h2>Frontend Developer - Drupal Themer (Freelance)<span class="company"><a href="">Blue Dot Lab</a></span></h2>
+                      <p>
+                      <i>Bootstrap, flatly based, theme across a multi-domain, multi-site Drupal instance.* Drupal* Bootstrap theme* SASS, Compass* Display Suite* pre&#x2F;process functions* Code&#x2F;Features based development* Git Flow* Pantheon* Agile Project* Open Atrium* Sprint based development</i>
+                        <ul>
+                        </ul>
+                      </p>
+                  </div>
+              </li>
+              <li>
+                  <time class="cbp_tmtime" datetime=""><span>1 months</span> <span>2014</span></time>
+                  <div class="cbp_tmicon cbp_tmicon-phone"></div>
+                  <div class="cbp_tmlabel">
+                      <h2>Frontend Developer - Drupal Themer (Freelance)<span class="company"><a href="http:&#x2F;&#x2F;whiteoctober.co.uk">White October</a></span></h2>
+                      <p>
+                      <i>Support and train Frontend developer to be independent in Drupal theming: - How to expose theme template files to amend core markup.- Use and modify theme functions, allowing to enable theme template file overrides.- Implement complex theme functions.* Drupal* Bootstrap theme* LESS* Display Suite* Git Flow* Github* Agile Project* Jira* Sprint based development</i>
+                        <ul>
+                        </ul>
+                      </p>
+                  </div>
+              </li>
+              <li>
+                  <time class="cbp_tmtime" datetime=""><span>1 months</span> <span>2014</span></time>
+                  <div class="cbp_tmicon cbp_tmicon-phone"></div>
+                  <div class="cbp_tmlabel">
+                      <h2>Frontend Developer - Drupal Themer (Freelance)<span class="company"><a href="http:&#x2F;&#x2F;www.torchbox.com">Torchbox</a></span></h2>
+                      <p>
+                      <i>Support existing team in responsive build of Chatham House redesign http:&#x2F;&#x2F;www.chathamhouse.org&#x2F; based on HTML designs.* Drupal* LESS* Display Suite* Git Flow* CodebaseHQ* Sprint based development</i>
+                        <ul>
+                        </ul>
+                      </p>
+                  </div>
+              </li>
+              <li>
+                  <time class="cbp_tmtime" datetime=""><span>1 months</span> <span>2013</span></time>
+                  <div class="cbp_tmicon cbp_tmicon-phone"></div>
+                  <div class="cbp_tmlabel">
+                      <h2>Frontend Developer - Drupal Themer (Freelance)<span class="company"><a href="">Coast Digital</a></span></h2>
+                      <p>
+                      <i>Tight deadline to implement a base theme (using Bootstrap 3) as foundation for multi-site.Focus on use of Bootstrap features and components within Drupal, including Views, Panels and search.</i>
+                        <ul>
+                        </ul>
+                      </p>
+                  </div>
+              </li>
+              <li>
+                  <time class="cbp_tmtime" datetime=""><span>1 months</span> <span>2013</span></time>
+                  <div class="cbp_tmicon cbp_tmicon-phone"></div>
+                  <div class="cbp_tmlabel">
+                      <h2>Frontend Developer - Drupal Themer (Freelance)<span class="company"><a href="http:&#x2F;&#x2F;data.gov.uk">Cabinet Office</a></span></h2>
+                      <p>
+                      <i>Delivered responsive Drupal theme for redesigned http:&#x2F;&#x2F;data.gov.uk on short notice and to tight deadline.All frontend assets (css&#x2F;js&#x2F;fonts&#x2F;images) were shared with CKAN templates in a separate repository, to allow as much reusability of code as possible.</i>
+                        <ul>
+                        </ul>
+                      </p>
+                  </div>
+              </li>
+              <li>
+                  <time class="cbp_tmtime" datetime=""><span>2 years</span> <span>2011</span></time>
+                  <div class="cbp_tmicon cbp_tmicon-phone"></div>
+                  <div class="cbp_tmlabel">
+                      <h2>Trustee &amp; Director of Technical Strategems<span class="company"><a href="http:&#x2F;&#x2F;narcolepsy.org.uk">Narcolepsy UK</a></span></h2>
+                      <p>
+                      <i>Member of Web and Marketing committee to enhance the web presence and ensure a wide audience reach</i>
+                        <ul>
+                        </ul>
+                      </p>
+                  </div>
+              </li>
+              <li>
+                  <time class="cbp_tmtime" datetime=""><span>0 months</span> <span>2013</span></time>
+                  <div class="cbp_tmicon cbp_tmicon-phone"></div>
+                  <div class="cbp_tmlabel">
+                      <h2>Drupal Themer - Front-end Developer<span class="company"><a href="http:&#x2F;&#x2F;tag1consulting.com">Tag1 Consulting, Inc.</a></span></h2>
+                      <p>
+                      <i>Part of the theming team on a large complex web app rebuild.</i>
+                        <ul>
+                        </ul>
+                      </p>
+                  </div>
+              </li>
+              <li>
+                  <time class="cbp_tmtime" datetime=""><span>4 months</span> <span>2012</span></time>
+                  <div class="cbp_tmicon cbp_tmicon-phone"></div>
+                  <div class="cbp_tmlabel">
+                      <h2>Drupal Themer - Front-end Developer<span class="company"><a href="http:&#x2F;&#x2F;bbcgoodfood.com">BBC Worldwide</a></span></h2>
+                      <p>
+                      <i>Build of new BBC Good FoodIntegrate a complex responsive front-end architecture into a Drupal theme for a traffic intense, image rich, site.Focus on front-end performance via code driven theme development.</i>
+                        <ul>
+                        </ul>
+                      </p>
+                  </div>
+              </li>
+              <li>
+                  <time class="cbp_tmtime" datetime=""><span>2 months</span> <span>2012</span></time>
+                  <div class="cbp_tmicon cbp_tmicon-phone"></div>
+                  <div class="cbp_tmlabel">
+                      <h2>Drupal Themer - Front-end Developer<span class="company"><a href="">HomeMade Digital Ltd</a></span></h2>
+                      <p>
+                      <i>Drupal theming, implemention of a SASS&#x2F;Compass enabled theme using Mothership.Tasked with retro-fitting a static HTML site design into Drupal build.</i>
+                        <ul>
+                        </ul>
+                      </p>
+                  </div>
+              </li>
+              <li>
+                  <time class="cbp_tmtime" datetime=""><span>0 months</span> <span>2012</span></time>
+                  <div class="cbp_tmicon cbp_tmicon-phone"></div>
+                  <div class="cbp_tmlabel">
+                      <h2>Drupal Themer - Front-end Developer<span class="company"><a href="">Tag1 Consulting, Inc.</a></span></h2>
+                      <p>
+                      <i>Advanced theming on a large scale broadcaster&#39;s video-on-demand service, using SASS.Integration into complex agile development process.Focus on theming ITV Player category, episode pages and watchlist.</i>
+                        <ul>
+                        </ul>
+                      </p>
+                  </div>
+              </li>
+              <li>
+                  <time class="cbp_tmtime" datetime=""><span>0 months</span> <span>2011</span></time>
+                  <div class="cbp_tmicon cbp_tmicon-phone"></div>
+                  <div class="cbp_tmlabel">
+                      <h2>Drupal Themer - Front-end Developer<span class="company"><a href="">Base One</a></span></h2>
+                      <p>
+                      <i>Called in to assist with finalise theming of project, while also updating requirements and functionality of platform base theme</i>
+                        <ul>
+                        </ul>
+                      </p>
+                  </div>
+              </li>
+              <li>
+                  <time class="cbp_tmtime" datetime=""><span>0 months</span> <span>2011</span></time>
+                  <div class="cbp_tmicon cbp_tmicon-phone"></div>
+                  <div class="cbp_tmlabel">
+                      <h2>Drupal Themer - Front-end Developer<span class="company"><a href="">Bantalabs</a></span></h2>
+                      <p>
+                      <i>Theming for large e-commerce site, working alongside Commerce Guys and Capgemini France</i>
+                        <ul>
+                        </ul>
+                      </p>
+                  </div>
+              </li>
+              <li>
+                  <time class="cbp_tmtime" datetime=""><span>0 months</span> <span>2011</span></time>
+                  <div class="cbp_tmicon cbp_tmicon-phone"></div>
+                  <div class="cbp_tmlabel">
+                      <h2>Henry VIII<span class="company"><a href="">Drupalcon London</a></span></h2>
+                      <p>
+                      <i>Led a group of DrupalCon London attendees on the Ubelly London SouthBank pubcrawl</i>
+                        <ul>
+                        </ul>
+                      </p>
+                  </div>
+              </li>
+              <li>
+                  <time class="cbp_tmtime" datetime=""><span>1 months</span> <span>2011</span></time>
+                  <div class="cbp_tmicon cbp_tmicon-phone"></div>
+                  <div class="cbp_tmlabel">
+                      <h2>Drupal Themer - Front-end Developer<span class="company"><a href="http:&#x2F;&#x2F;www.bristol.gov.uk">Capgemini</a></span></h2>
+                      <p>
+                      <i>Involved in the final stages of the Bristol City Council website [bristol.gov.uk], particularly tweaking to optimise accessibility along WCAG 2.0 guidelines and refine a number of User Experience issues.</i>
+                        <ul>
+                        </ul>
+                      </p>
+                  </div>
+              </li>
+              <li>
+                  <time class="cbp_tmtime" datetime=""><span>2 months</span> <span>2011</span></time>
+                  <div class="cbp_tmicon cbp_tmicon-phone"></div>
+                  <div class="cbp_tmlabel">
+                      <h2>Drupal Themer - Front-end Developer<span class="company"><a href="">Public Zone</a></span></h2>
+                      <p>
+                      <i>Freelance Drupal themer on Urban Gateway [urbangateway.org] and My Farm [my-farm.org.uk]</i>
+                        <ul>
+                        </ul>
+                      </p>
+                  </div>
+              </li>
+              <li>
+                  <time class="cbp_tmtime" datetime=""><span>5 months</span> <span>2010</span></time>
+                  <div class="cbp_tmicon cbp_tmicon-phone"></div>
+                  <div class="cbp_tmlabel">
+                      <h2>Front-End Developer<span class="company"><a href="">Gemin-i.org</a></span></h2>
+                      <p>
+                      <i>HTML5 semantic site architecture and templating of Symfony modules built with developers.Design and UX of Rafiki, social community web application.</i>
+                        <ul>
+                        </ul>
+                      </p>
+                  </div>
+              </li>
+              <li>
+                  <time class="cbp_tmtime" datetime=""><span>1 months</span> <span>2010</span></time>
+                  <div class="cbp_tmicon cbp_tmicon-phone"></div>
+                  <div class="cbp_tmlabel">
+                      <h2>Front-End Developer<span class="company"><a href="">Russell Investments</a></span></h2>
+                      <p>
+                      <i>Evaluation of CMS&#x2F;Template possibilities for build of new website within current hosting restrictions. Build of documented HTML&#x2F;CSS templates according to in-house designs, training of marketing team for content input. Write detailed specs and docs for handover to replacement developer.</i>
+                        <ul>
+                        </ul>
+                      </p>
+                  </div>
+              </li>
+              <li>
+                  <time class="cbp_tmtime" datetime=""><span>10 months</span> <span>2008</span></time>
+                  <div class="cbp_tmicon cbp_tmicon-phone"></div>
+                  <div class="cbp_tmlabel">
+                      <h2>Creative Web Developer<span class="company"><a href="">Anderson Norton Design</a></span></h2>
+                      <p>
+                      <i>Main role consisted of preparing Wireframes and Information Architecture, setting up Drupal websites and implementing theme design, as well as support agent for clients and all static, CMSMadeSimple and Drupal websites. Other functions included managing&#x2F;installing Debian servers, educating designers on design for the web, training clients on CMS.</i>
+                        <ul>
+                        </ul>
+                      </p>
+                  </div>
+              </li>
+              <li>
+                  <time class="cbp_tmtime" datetime=""><span>2 months</span> <span>2008</span></time>
+                  <div class="cbp_tmicon cbp_tmicon-phone"></div>
+                  <div class="cbp_tmlabel">
+                      <h2>Front-End Developer<span class="company"><a href="">The CogWorks</a></span></h2>
+                      <p>
+                      <i>Cogworks used an in-house ASP.NET CMS, this required implementing design from PSD into a static HTML&#x2F;CSS model that was then templated for the CMS.</i>
+                        <ul>
+                        </ul>
+                      </p>
+                  </div>
+              </li>
+              <li>
+                  <time class="cbp_tmtime" datetime=""><span>0 months</span> <span>2008</span></time>
+                  <div class="cbp_tmicon cbp_tmicon-phone"></div>
+                  <div class="cbp_tmlabel">
+                      <h2>Graphic &amp; Web Designer<span class="company"><a href="">Greenbee.com; John Lewis Partnership</a></span></h2>
+                      <p>
+                      <i>The redesign of greenbee.com required a tighter design harmony with the quote system calling the various Insurance Company APIs, while taking into account the consequent limited flexibility. Updates were also required for the various insurance cover booklets to be provided to customers.</i>
+                        <ul>
+                        </ul>
+                      </p>
+                  </div>
+              </li>
+              <li>
+                  <time class="cbp_tmtime" datetime=""><span>9 months</span> <span>2007</span></time>
+                  <div class="cbp_tmicon cbp_tmicon-phone"></div>
+                  <div class="cbp_tmlabel">
+                      <h2>Designer<span class="company"><a href="">T5M</a></span></h2>
+                      <p>
+                      <i>T5M run a video magazine website, at the time they were working closely with Microsoft, where I would build the various designs to pass on to the developers, this included the use of newly released MS Expression Studio. While the company was still small, I was also IT support and print designer. As the company grew, I specialised in building the corporate site and numerous HTML&#x2F;CSS snippets to be implemented in the application.</i>
+                        <ul>
+                        </ul>
+                      </p>
+                  </div>
+              </li>
+            </ul>
+
+        </div>
+        <br>
+        <div class="container" id="skills">
+          <h2 class="section-title">Skills</h2>
+          <div class="row">
+            <div class="col-xs-12 col-md-6">
+
+              <h4> Drupal </h4>
+                <h5><b>80%</b></h5>
+                <span class="badge greenbadge">Theming</span>
+                <span class="badge greenbadge">Site Building</span>
+                <span class="badge greenbadge">Configuration</span>
+                <span class="badge greenbadge">Maintenance</span>
+                <span class="badge greenbadge">Front-end Performance</span>
+            </div>
+            <br>
+            <div class="col-xs-12 col-md-6">
+
+              <h4> Front-end Development </h4>
+                <h5><b>80%</b></h5>
+            </div>
+            <br>
+            <div class="col-xs-12 col-md-6">
+
+              <h4> Theming </h4>
+                <h5><b>80%</b></h5>
+            </div>
+            <br>
+            <div class="col-xs-12 col-md-6">
+
+              <h4> Accessibility </h4>
+                <h5><b>80%</b></h5>
+            </div>
+            <br>
+            <div class="col-xs-12 col-md-6">
+
+              <h4> jQuery </h4>
+                <h5><b>50%</b></h5>
+            </div>
+            <br>
+            <div class="col-xs-12 col-md-6">
+
+              <h4> User Experience </h4>
+                <h5><b>60%</b></h5>
+            </div>
+            <br>
+            <div class="col-xs-12 col-md-6">
+
+              <h4> CSS </h4>
+                <h5><b>85%</b></h5>
+            </div>
+            <br>
+            <div class="col-xs-12 col-md-6">
+
+              <h4>  </h4>
+                <h5><b></b></h5>
+            </div>
+            <br>
+            <div class="col-xs-12 col-md-6">
+
+              <h4> Front-end </h4>
+                <h5><b>90%</b></h5>
+            </div>
+            <br>
+            <div class="col-xs-12 col-md-6">
+
+              <h4> HTML </h4>
+                <h5><b>90%</b></h5>
+            </div>
+            <br>
+            <div class="col-xs-12 col-md-6">
+
+              <h4> SASS </h4>
+                <h5><b>80%</b></h5>
+            </div>
+            <br>
+            <div class="col-xs-12 col-md-6">
+
+              <h4> Web Standards </h4>
+                <h5><b></b></h5>
+            </div>
+            <br>
+            <div class="col-xs-12 col-md-6">
+
+              <h4> Git </h4>
+                <h5><b></b></h5>
+            </div>
+            <br>
+
+          </div>
+        </div>
+<br>
+<br>
+<br>
+<br>
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+        <script>
+            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+            e.src='//www.google-analytics.com/analytics.js';
+            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+            ga('create','UA-XXXXX-X');ga('send','pageview');
+        </script>
+
+</body>
+</html>
