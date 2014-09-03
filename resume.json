@@ -6,7 +6,13 @@
     "email": "tom@halfmesh.com",
     "phone": "+44 7910357 497",
     "website": "",
-    "summary": "A multilingual front-end coder, I speak English, CSS, HTML, French, Drupal, all cleanly and semantically of course. Common sense usually prevails throughout, provided a good supply of tea. \\nPast projects include: Chatham House, Data.Gov.UK, BBC Good Food, ITV Player, Bristol City Council. \\nWorking with Drupal for 5 years as a themer. I attended 8 Drupalcamps in 2012 and spoke at 3 about how to stop designing pages and effective on-boarding processes. \\nLikes: Open Source, fruit, styleguides, agile and kanban, Git, SASS, Drupal theming, pattern libraries, Github, nonprofits, collaboration, structure and tea. \\nDislikes: static web page design PSDs, messy markup, multi-national corporations, projects without version control, without documentation, without project management, coffee, not being able to learn new things.Frontend United London 2013 co-organiser, a not-for-profit european conference delivering inspiring talks.",
+    "summary": [
+      "A multilingual front-end coder, I speak English, CSS, HTML, French, Drupal, all cleanly and semantically of course. Common sense usually prevails throughout, provided a good supply of tea.", 
+      "Past projects include: Chatham House, Data.Gov.UK, BBC Good Food, ITV Player, Bristol City Council.", 
+      "Working with Drupal for 5 years as a themer. I attended 8 Drupalcamps in 2012 and spoke at 3 about how to stop designing pages and effective on-boarding processes.",
+      "Likes: Open Source, fruit, styleguides, agile and kanban, Git, SASS, Drupal theming, pattern libraries, Github, nonprofits, collaboration, structure and tea.",
+      "Dislikes: static web page design PSDs, messy markup, multi-national corporations, projects without version control, without documentation, without project management, coffee, not being able to learn new things.Frontend United London 2013 co-organiser, a not-for-profit european conference delivering inspiring talks."
+      ],
     "location": {
       "address": "",
       "postalCode": "",
